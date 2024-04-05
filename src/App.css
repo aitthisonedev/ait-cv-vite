@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    color: #ededed;
+    background: #081b29;
+    margin-top: 102px;
+}
+.Last-text p {
+    width: 100%;
+    text-align: center;
+    padding: 25px 0;
+    height: 15px;
+    background: rgba(0, 0, 0, 0.1);
+    font-weight: 300;
+    margin-top: 50px;
+}
+
+.top {
+    position: fixed;
+    bottom: 2.1rem;
+    right: 2.1rem;
+}
+
+.top i {
+    color: #000;
+    background: #0ef;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 0.5rem;
+}

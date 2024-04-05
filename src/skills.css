@@ -1,0 +1,385 @@
+
+
+.skilss-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 5px;
+    align-items: center;
+}
+
+.sup-skills {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: -100px;
+
+}
+
+.sup-skills span {
+    color: #0ef;
+
+}
+
+.container1 {
+    width: 100%;
+    height: 40%;
+    margin: 0 30px;
+    padding: 0px 90px;
+}
+
+.heading1 {
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 5px;
+    margin-bottom: 50px;
+}
+
+.bar {
+    font-size: 23px;
+}
+
+.Technical-bars .bar .fa-brands {
+    margin: 10px 0;
+}
+
+.Technical-bars .bar:first-child {
+    margin-top: 0;
+}
+
+.Technical-bars .bar:last-child {
+    margin-bottom: 0;
+}
+
+.Technical-bars .bar .info {
+    margin-bottom: 15px;
+
+}
+
+.Technical-bars .bar .info span {
+    font: size 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.Technical-bars .bar .progress-line {
+    position: relative;
+    border-radius: 10px;
+    width: 100%;
+    height: 5px;
+    background-color: #000000;
+    animation: aniMate 0.3s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+.Technical-bars .bar .progress-line span {
+    height: 100%;
+    background-color: #0ef;
+    position: absolute;
+    border-radius: 10px;
+    animation: aniMate 0.5s 0.5s linear forwards;
+    transform: scaleX(0);
+    transform-origin: left;
+}
+
+@keyframes aniMate {
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+.progress-line {
+    margin-bottom: 35px;
+}
+
+.progress-line .html {
+    width: 90%;
+}
+
+.progress-line .css {
+    width: 80%;
+}
+
+.progress-line .javascript {
+    width: 90%;
+}
+
+.progress-line .python {
+    width: 90%;
+}
+
+.progress-line .react {
+    width: 75%;
+}
+
+.progress-line span::after {
+    position: absolute;
+    padding: 1px 8px;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 3px;
+    top: -28px;
+    right: -20px;
+    animation: showText 1.5s linear forwards;
+    opacity: 0;
+}
+
+.progress-line .html::after {
+    content: "90%";
+}
+
+.progress-line .css::after {
+    content: "80%";
+}
+
+.progress-line .javascript::after {
+    content: "85%";
+}
+
+.progress-line .python::after {
+    content: "90%";
+}
+
+.progress-line .react::after {
+    content: "90%";
+}
+
+
+.progress-line span::before {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-bottom-width: 0px;
+    border-right-width: 0px;
+    border-top-color: #000;
+    top: -10px;
+    right: 0;
+    animation: showText 0.5s linear forwards;
+    opacity: 0;
+}
+
+@keyframes showText {
+    100% {
+        opacity: 1;
+        /* Set opacity to 1 at the end of the animation */
+    }
+}
+
+.radial-bars-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.radial-bars-container .radial-bars {
+    width: 50%;
+    height: 170px;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.radial-bars-container .radial-bars svg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-90deg);
+    width: 120px;
+    height: 160px;
+
+}
+
+.radial-bars-container .radial-bars .progress-bar {
+    stroke-width: 10;
+    stop-color: black;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+    animation: animate-bar 1s linear forwards;
+}
+
+@keyframes animate-bar {
+    100% {
+        stroke-dashoffset: -1;
+    }
+}
+
+.path {
+    stroke-width: 10;
+    stroke: #0ef;
+    fill: transparent;
+    stroke-dasharray: 502;
+    stroke-dashoffset: 502;
+    stroke-linecap: round;
+}
+
+.path-1 {
+    animation: animate-path1 1s 1s linear forwards;
+}
+
+.path-2 {
+    animation: animate-path2 1s 1s linear forwards;
+}
+
+.path-3 {
+    animation: animate-path3 1s 1s linear forwards;
+}
+
+.path-4 {
+    animation: animate-path4 1s 1s linear forwards;
+}
+
+@keyframes animate-path1 {
+    100% {
+        stroke-dashoffset: 50;
+        ;
+    }
+}
+
+@keyframes animate-path2 {
+    100% {
+        stroke-dashoffset: 175;
+        ;
+    }
+}
+
+@keyframes animate-path3 {
+    100% {
+        stroke-dashoffset: 125;
+        ;
+    }
+}
+
+@keyframes animate-path4 {
+    100% {
+        stroke-dashoffset: 75;
+        ;
+    }
+}
+
+.radial-bars .percentage {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+
+}
+
+.radial-bars .text {
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    nav-left: 50%;
+    bottom: -5px;
+    transform: translateX(0px);
+    font-size: 17px;
+    font-weight: 500;
+    animation: showText 0.5s 1s linear forwards;
+    opacity: 0;
+}
+
+.main-text {
+    padding-top: 130px;
+    margin-top: 200px;
+
+}
+
+.main-text h2 {
+    font-size: 60px;
+    line-height: 1;
+    text-align: center;
+
+}
+
+.main-text h2 span {
+    color: #0ef;
+}
+
+.protfolio-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+    grid-gap: 40px;
+    padding: 40px;
+}
+
+
+@media(max-width:880px) {
+    .Skills {
+        justify-content: center;
+        margin-bottom: 0;
+    }
+
+    .container1 {
+        width: 75%;
+        height: 100%;
+        padding: 40px;
+        margin-bottom: 0px;
+    }
+
+    .heading1 {
+        text-align: center;
+        text-decoration: underline;
+        text-underline-offset: 10px;
+        text-decoration-thickness: 5px;
+        margin-bottom: 40px;
+    }
+
+    .skilss-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(880px, 1fr));
+        grid-gap: 5px;
+        align-items: center;
+    }
+
+    .sup-skills {
+        text-align: center;
+        font-size: 60px;
+        margin-bottom: 20px;
+
+    }
+
+
+}
+
+@media(max-width:580px) {
+    .container1 {
+        width: 45%;
+        height: 100%;
+        padding:0 40px;
+        margin-left: 0%;
+    }
+
+    .sup-skills {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+}
+
+@media(max-width:380px) {
+    .container1 {
+        width: 45%;
+        height: 100%;
+        padding: 0 40px;
+        margin-left: 0%;
+    }
+
+    .sup-skills {
+        text-align: center;
+        margin-bottom: 20px;
+
+    }
+    .radial-bars-container  {
+        margin-top: 10px;
+
+    }
+}
