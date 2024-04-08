@@ -1,33 +1,9 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useState, useEffect } from 'react';
-// import Typed from 'react-typed';
 import './home.css';
+// import TypingEffect from './TypingEffect';
+import TypedComponent from './TypedComponent';
 
-// const TypingAnimation = () => {
-//   return (
-//     <Typed
-//       strings={['Freelancer', 'Web Developer', 'Frontend Developer']}
-//       typeSpeed={50}
-//       backSpeed={30}
-//       backDelay={1000}
-//       loop
-//     />
-//   );
-// };
-
-const TypingAnimation = () => {
-  const phrases = ['Freelancer', 'Web Developer', 'Frontend Developer'];
-  const [currentPhrase, setCurrentPhrase] = useState(0);
-
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentPhrase((prevPhrase) => (prevPhrase + 1) % phrases.length);
-    }, 1500); // Adjust the interval time as needed
-
-    return () => clearInterval(interval);
-  }, []);
-
-  return <span>{phrases[currentPhrase]}</span>;
-};
 
 const Home = () => {
   return (
@@ -36,11 +12,11 @@ const Home = () => {
         <div className="me-img">
           <img src="/image/Aittisonepng.png" alt="Aittisone Duangsompheang" />
         </div>
-        <h3>Hello, I am M</h3>
+        <h3>Hello, I am Mr.</h3>
         <h1>Aittisone Duangsompheang</h1>
-        <h3>And I'm a <span className="text">< TypingAnimation/></span> </h3>
+        <h3>And I m a<span className="text"><TypedComponent/></span></h3>
         <p>
-          I'm a web Designer with extensive experience for over 5 years. My expertise is in creating website designs and Frontend Design.
+          I m a web Designer with extensive experience for over 5 years. My expertise is in creating website designs and Frontend Design.
         </p>
         <div className="home-sci">
           <a href="#" style={{ '--1': 6 }} className="active"><i className="fa-brands fa-facebook"></i></a>
