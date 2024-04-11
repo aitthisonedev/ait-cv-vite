@@ -37,10 +37,26 @@ const Contact = () => {
             <li><i class="fa-solid fa-location-dot"></i>&nbsp; Address: Dongkhamxang Village, Hardxayfong District, Vientiane Lao PDR</li>
           </div>
           <div className="contact-icons">
-            <a href="#" style={{ '--1': 6 }} className="active"><i className="fa-brands fa-facebook"></i></a>
-            <a href="#" style={{ '--1': 7 }} className="active"><i className="fa-brands fa-square-instagram"></i></a>
-            <a href="#" style={{ '--1': 8 }} className="active"><i className="fa-brands fa-square-whatsapp"></i></a>
-            <a href="#" style={{ '--1': 9 }} className="active"><i className="fa-brands fa-line"></i></a>
+          <a
+            href="https://www.facebook.com/itsarkhone"
+            target="_Bank"
+            style={{ "--1": 6 }}
+            className="active"
+          >
+            <i className="fa-brands fa-facebook"></i>
+          </a>
+          <a href="https://www.instagram.com/aittisone_dsp/" target="_Bank" style={{ "--1": 7 }} className="active">
+            <i className="fa-brands fa-square-instagram"></i>
+          </a>
+          <a href="https://www.instagram.com/aittisone_dsp/" target="_Bank" style={{ "--1": 8 }} className="active">
+          <i className="fa-brands fa-linkedin"></i>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=8562078866695" target="_Bank" style={{ "--1": 9 }} className="active">
+            <i className="fa-brands fa-square-whatsapp"></i>
+          </a>
+          <a href="https://line.me/ti/p/dVra1dIvXy" target="_Bank" style={{ "--1": 10 }} className="active">
+            <i className="fa-brands fa-line"></i>
+          </a>
           </div>
         </div>
         <div className="contact-form">

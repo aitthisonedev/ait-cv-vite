@@ -7,13 +7,13 @@ const TypedComponent = () => {
 
   useEffect(() => {
     const typed = new Typed(el.current, {
-      strings: ["Freelancer", "Web Developer", "Frontend Developer"],
+      strings: ["I' am a Freelancer", "I' am a Web Developer", "I' am a Frontend Developer"],
       typeSpeed: 80,
       backSpeed: 50,
       backDelay: 1500,
       loop: true,
       showCursor: false, // Ensure the cursor is shown
-//       cursorChar: '|', // Customize cursor character as needed
+      // cursorChar: '|', // Customize cursor character as needed
     });
 
     return () => {
