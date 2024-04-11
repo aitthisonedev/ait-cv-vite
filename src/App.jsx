@@ -1,4 +1,5 @@
-import { useState } from 'react'
+// eslint-disable-next-line no-unused-vars
+import  React  from 'react'
 import './App.css'
 import Home from './home';
 import About from './about';
@@ -19,7 +20,7 @@ function App() {
         <br></br>
         <Portfolio />
         <Contact />
-        <a href="#home" class="top"><i class="fa-solid fa-arrow-up"></i></a>
+        <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>
       </div>
     </>
   )

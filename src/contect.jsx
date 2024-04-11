@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import './contact.css';
@@ -21,7 +22,7 @@ const Contact = () => {
       <div className="contact" id="contact">
         <div className="contact-text">
           <h2>Contact <span>Me</span></h2>
-          <h4>Let's work Together</h4>
+          <h4>Let is work Together</h4>
           <p>
             🎨 Creative Design: I breathe life into designs, ensuring each pixel is in its perfect place. From sleek, modern interfaces to interactive user experiences, your vision is my blueprint.
             <br />
@@ -29,12 +30,12 @@ const Contact = () => {
             <b>Why Collaborate With Me?</b>
             <br />
             <br />
-            ✨ Attention to Detail: It's not just about the big picture; it's the small details that make a difference. I obsess over the details to deliver a polished and refined final product.
+            ✨ Attention to Detail: It s not just about the big picture; it is the small details that make a difference. I obsess over the details to deliver a polished and refined final product.
           </p>
           <div className="context-list">
             <li><i className="fa-solid fa-paper-plane"></i>&nbsp; Email: itsarkhone@gmail.com</li>
             <li><i className="fa-solid fa-phone"></i>&nbsp; Tel: +856 20 788 666 95</li>
-            <li><i class="fa-solid fa-location-dot"></i>&nbsp; Address: Dongkhamxang Village, Hardxayfong District, Vientiane Lao PDR</li>
+            <li><i className="fa-solid fa-location-dot"></i>&nbsp; Address: Dongkhamxang Village, Hardxayfong District, Vientiane Lao PDR</li>
           </div>
           <div className="contact-icons">
           <a
@@ -65,7 +66,7 @@ const Contact = () => {
             <input type="phone"name='phone'placeholder="Enter your Phone"required />
             <input type="email" name='email'placeholder="Enter your Email"required />
             <input type="subject" name='subject'placeholder="Enter your Subject" />
-            <textarea type="message"Name='message'cols="40" rows="10"placeholder="Enter your Message"required></textarea>
+            <textarea type="message"name='message'cols="40" rows="10"placeholder="Enter your Message"required></textarea>
             <input className="Send" onClick={(e)=>sendEmail(e)} value="Send"  style={{ textAlign: 'center', color: 'aliceblue' }} />
           </form>
         </div>
