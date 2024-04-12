@@ -16,8 +16,6 @@ function App() {
         <About />
         <Services />
         <Skills />
-        <br></br>
-        <br></br>
         <Portfolio />
         <Contact />
         <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>

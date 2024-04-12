@@ -2,11 +2,10 @@
 .contact {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 20px;
     padding: 0 20px;
     align-items: center;
     padding-left: 20px;
-    margin-top: 50px;
 }
 
 .contact-text {
@@ -21,7 +20,6 @@
     line-height: 1;
     margin-top: 0;
     padding-top: 0%;
-    margin-bottom: 50px;
     /* text-align: center; */
 }
 
@@ -165,7 +163,7 @@ form .Send:hover {
 @media screen and (max-width: 768px) {
     .contact-text h2 {
         font-size: 50PX;
-        margin-bottom: 30px;
+        margin-top: 0;
     }
    
 }

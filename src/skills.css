@@ -365,7 +365,7 @@
     }
 }
 
-@media(max-width:380px) {
+@media(max-width:480px) {
     .container1 {
         width: 45%;
         height: 100%;
@@ -376,10 +376,15 @@
     .sup-skills {
         text-align: center;
         margin-bottom: 20px;
+        margin-top: 30PX;
 
     }
     .radial-bars-container  {
         margin-top: 10px;
 
+    }
+    .Skills{
+        margin-bottom: 50PX;
+        margin-top: 700px;
     }
 }

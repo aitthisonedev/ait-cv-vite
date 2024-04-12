@@ -27,7 +27,7 @@ const Contact = () => {
             🎨 Creative Design: I breathe life into designs, ensuring each pixel is in its perfect place. From sleek, modern interfaces to interactive user experiences, your vision is my blueprint.
             <br />
             <br />
-            <b>Why Collaborate With Me?</b>
+            <h4>Why Collaborate With Me?</h4>
             <br />
             <br />
             ✨ Attention to Detail: It s not just about the big picture; it is the small details that make a difference. I obsess over the details to deliver a polished and refined final product.

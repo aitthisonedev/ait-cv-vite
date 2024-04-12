@@ -1,11 +1,12 @@
 // SkillsComponent.js
 
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './skills.css'; 
 
 const Skills = () => {
     return (
-        <section className="Skills" id="skills">
+        <section className="Skills" id="skills" >
             <h1 className="sup-skills">My <span>Skills</span></h1>
             <div className="skilss-container">
                 <div className="container1">

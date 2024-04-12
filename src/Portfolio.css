@@ -1,6 +1,6 @@
 
 .main-text h2 {
-    font-size: 60px;
+    font-size: 50px;
     line-height: 1;
     text-align: center;
 
@@ -13,7 +13,7 @@
 .protfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 40px;
+    grid-gap: 20px;
     padding: 40px;
 }
 
@@ -22,7 +22,7 @@
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
-    margin: 40px;
+    margin: 2opx 40px;
 }
 
 .row-one img {
