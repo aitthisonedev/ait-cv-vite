@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import './services.css'; 
 
@@ -10,7 +11,7 @@ const Services = () => {
                     <div className="services-list">
                         <div>
                             <i className="fa-solid fa-code" style={{ color: '#00eeff' }}></i>
-                            <h2>UI/UX Design</h2>
+                            <h2>UX/UI Design</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
                                 accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
@@ -20,7 +21,7 @@ const Services = () => {
                         </div>
                         <div>
                             <i className="fa-solid fa-crop-simple" style={{ color: '#00eeff' }}></i>
-                            <h2>UI/UX Design</h2>
+                            <h2>Frontend Developer</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
                                 accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
@@ -30,7 +31,7 @@ const Services = () => {
                         </div>
                         <div>
                             <i className="fa-brands fa-apple" style={{ color: '#00eeff' }}></i>
-                            <h2>UI/UX Design</h2>
+                            <h2>Appellation</h2>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
                                 accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
