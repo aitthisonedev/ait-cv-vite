@@ -34,7 +34,8 @@
 }
 
 .row-one:hover img {
-    transform: scale(1.1);
+    transform: scale(1.05);
+    transition-delay: 6.3ms;
 }
 
 .row {
@@ -45,7 +46,9 @@
 }
 
 .row img {
-    width: 100%;
+    width: auto;
+    height: 200px;
+    background-size: cover;
     border-radius: 15px;
     display: block;
     transition: transform 0.5s;
@@ -67,6 +70,9 @@
     text-align: center;
     padding: 0 40px;
     transition: height 0.5s;
+    background-color:#081b29;
+    padding: 5px;
+    border-radius: 15px;
 }
 
 
@@ -78,11 +84,10 @@
 }
 
 .layer p {
-    color: black;
-    background-color: azure;
+    color: whitesmoke;
     padding: 5px;
     border-radius: 15px;
-    font-size: 1rem;
+    font-size: 14px;
     line-height: 1.8;
 }
 
@@ -90,7 +95,6 @@
     color: #ff004f;
     margin-top: 20px;
     font-size: 20px;
-    background: gainsboro;
     width: 60px;
     height: 60px;
     display: flex;
@@ -98,9 +102,16 @@
     justify-content: center;
     border-radius: 50px;
 }
-
+.layer img {
+    height:40px;
+    width:40px;
+    background: azure;
+    padding: 3px;
+    margin: 5px;
+}
 .row:hover img {
     transform: scale(1.1);
+    
 }
 
 .row:hover .layer {

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
@@ -11,7 +12,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-12 mb-4 mb-md-0">
                             <h5 className="text-uppercase mb-4">About company</h5>
                             <p className='Make-smarter'>
-                                Make smarter decisions faster using the world's most deployed ERP solution
+                                Make smarter decisions faster using the world is most deployed ERP solution
                             </p>
                             <p>
                                 Achieve your IPO dreams with SAP Business One and Sala Daeng. Our based ERP system offers unified financial management, real-time visibility, and scalability to help you meet regulatory compliance. With expert implementation and support from SLD, you'll have everything you need to succeed.
@@ -70,8 +71,7 @@ const Footer = () => {
                 </div>
 
                 <div className="text-center p-3" style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
-                    © 2023 :    Dev by Aittisone DUANGSOMPHEANG I
-                    ERP SAP Business One
+                    © 2023 :Dev by Aittisone DUANGSOMPHEANG 
                 </div>
             </footer>
         </div>

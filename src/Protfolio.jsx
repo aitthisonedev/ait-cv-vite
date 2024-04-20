@@ -6,61 +6,57 @@ const Portfolio = () => {
   return (
       <div className="protfolio" id="protfolio">
         <div className="main-text" id="project">
-          <h2>Latest <span>project</span></h2>
+          <h2>Latest <span>Project</span></h2>
           <div className="row-one">
-            <img src="/image/projectpng.png" alt="Latest project" />
+            <img src="/image/Lateproject.png" alt="Latest project" />
           </div>
           <div className="protfolio-content">
             <div className="row">
-              <img src="https://fiverr-res.cloudinary.com/images/t_main1,q_auto,f_auto,q_auto,f_auto/gigs/234083561/original/5451cbe83b961781b8765e47891de28cc3163ad9/do-professional-web-ui-or-landing-page-design.jpg"
+              <img src="/image/Thesslonic.png"
                 alt="Project 1" />
               <div className="layer">
-                <h5>UI/UX Design</h5>
+                <h5>Thesslonic Co.,Ltd</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis illo rerum
-                  aspernatur nesciunt, in animi! Illum, hic eligendi nostrum nisi modi provident, maxime
-                  animi itaque quos repellat ab necessitatibus?
+                Website about Construction 3D Design and service.
                 </p>
-                <a href="/"><i className="bx bx-link-external" style={{ color: 'aliceblue' }}></i></a>
+                <p>www.thesslonic.com</p>
+                <a href="https://thesslonic.netlify.app/" target='bank_'><img src="https://thesslonic.netlify.app/assets/img/logo-light.png" ></img></a>
               </div>
             </div>
             <div className="row">
-            <img src="https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23140644/website-template-design-projects.jpg"
+            <img src="/image/vientianetraffic.png"
                 alt="Project 2" />
               <div className="layer">
-                <h5>UI/UX Design</h5>
+                <h5>Vientianetraffic Co,.Ltd</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis illo rerum
-                  aspernatur nesciunt, in animi! Illum, hic eligendi nostrum nisi modi provident, maxime
-                  animi itaque quos repellat ab necessitatibus?
+                Website about Road painting Traffic of lao.
                 </p>
-                <a href="/"><i className="bx bx-link-external" style={{ color: 'aliceblue' }}></i></a>
+                <p>www.vientianetraffic.com</p>
+                <a href="https://www.vientianetraffic.com/" target='bank_'><img src="https://www.vientianetraffic.com/images/logo/logoedite.png" ></img></a>
               </div>
             </div>
             <div className="row">
-              <img src="https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23140644/website-template-design-projects.jpg"
+              <img src="/image/industek.png"
                 alt="Project 3" />
               <div className="layer">
-                <h5>UI/UX Design</h5>
+                <h5>Industeklao Co.,Ltd</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis illo rerum
-                  aspernatur nesciunt, in animi! Illum, hic eligendi nostrum nisi modi provident, maxime
-                  animi itaque quos repellat ab necessitatibus?
+                  Website about Safety Equiment product and service.
                 </p>
-                <a href="/"><i className="bx bx-link-external" style={{ color: 'aliceblue' }}></i></a>
+                <p>www.industeklao.com</p>
+                <a href="https://www.industeklao.com/" target='bank_' ><img src="https://static.wixstatic.com/media/81237e_d8b6fefa7489438ca02978b9c4a9f73b~mv2.png/v1/fill/w_398,h_158,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Industek%20Logo%20PNG.png" ></img></a>
               </div>
             </div>
             <div className="row">
-              <img src="https://uicreative.s3.ap-southeast-1.amazonaws.com/wp-content/uploads/2019/11/23140644/website-template-design-projects.jpg"
+              <img src="/image/smartklinWeb.png"
                 alt="Project 3" />
               <div className="layer">
-                <h5>UI/UX Design</h5>
+                <h5>Smartklinlao Co.,Ltd</h5>
                 <p>
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga nobis illo rerum
-                  aspernatur nesciunt, in animi! Illum, hic eligendi nostrum nisi modi provident, maxime
-                  animi itaque quos repellat ab necessitatibus?
+                  Website Designer Service about Cleaning product Karcher Brand.
                 </p>
-                <a href="/"><i className="bx bx-link-external" style={{ color: 'aliceblue' }}></i></a>
+                <p>www.smartklinlao.com</p>
+                <a href="https://www.smartklinlao.com/" target='bank_' ><img src="https://static.wixstatic.com/media/81237e_265c765a01f54af9abf300c78f5847a7~mv2.png/v1/fill/w_370,h_192,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/Smartklin%20LOGO%20PNG.png" ></img></a>
               </div>
             </div>
           </div>
