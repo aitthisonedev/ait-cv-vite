@@ -19,7 +19,7 @@ const about = () => {
                     🌍 Global Aspirations, Local Roots: Step into the global arena without losing your local essence. Our ERP system
                     opens doors to international corporate mastery.
                 </p>
-                <a href="#" className="btn-box">More About Me</a>
+                <a href="/#contact" className="btn-box">More About Me</a>
             </div>
         </section>
     );

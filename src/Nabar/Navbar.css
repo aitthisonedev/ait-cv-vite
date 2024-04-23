@@ -150,7 +150,9 @@
   color: #0efe;
   background: none;
   max-width:40%;
+  font-size: 12px;
   margin-left: 15px;
+  margin-right: 0px;
   height: 40px;
   border-radius: 5px;
   padding: 10px;

@@ -15,9 +15,7 @@ const Services = () => {
                             <i className="fa-solid fa-code" style={{ color: '#00eeff' }}></i>
                             <h2>UX/UI Design</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
-                                accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
-                                consectetur accusantium ea sint eveniet non dignissimos.
+                            UX/UI Design focuses on creating intuitive, engaging digital experiences. UX (User Experience) enhances usability, while UI (User Interface) designs the visual elements, ensuring seamless interaction between users and products.
                             </p>
                             <a href="#Contact" className="read">Learn More</a>
                         </div>
@@ -27,9 +25,7 @@ const Services = () => {
                             <i className="fa-solid fa-laptop-code" style={{ color: '#00eeff' }}></i>
                             <h2>Frontend Developer</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
-                                accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
-                                consectetur accusantium ea sint eveniet non dignissimos.
+                            Frontend Developers craft the look and feel of websites and apps you interact with. They use code to bring designs to life, making your digital experience seamless and enjoyable.
                             </p>
                             <a href="#Contact" className="read">Learn More</a>
                         </div>
@@ -40,9 +36,7 @@ const Services = () => {
                             <i className="fa-brands fa-android" style={{ color: '#00eeff' }}></i>
                             <h2>Appellation</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
-                                accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
-                                consectetur accusantium ea sint eveniet non dignissimos.
+                            At Appellation, we specialize in crafting captivating digital experiences. Our Frontend Developers breathe life into designs, ensuring seamless interaction for users. Elevate your brand with our expertise.
                             </p>
                             <a href="#Contact" className="read">Learn More</a>
                         </div>
@@ -51,9 +45,7 @@ const Services = () => {
                             <i className="fa-solid fa-pen" style={{ color: '#00eeff' }}></i>
                             <h2>Customize</h2>
                             <p>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere fugit facilis corporis
-                                accusamus ea obcaecati nemo vel deleniti error! Praesentium dolore nesciunt optio
-                                consectetur accusantium ea sint eveniet non dignissimos.
+                            At Srervice, we not only excel in crafting captivating digital experiences, but also customize our services to suit your unique needs. Elevate your brand with tailored frontend development solutions.
                             </p>
                             <a href="#Contact" className="read">Learn More</a>
                         </div>

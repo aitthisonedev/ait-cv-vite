@@ -1,0 +1,49 @@
+.slideshow {
+    position: relative;
+    max-width: 600px; /* Adjust based on your layout */
+    margin: auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    width: 100%;
+    transition: ease 0.5s;
+}
+
+.slide.active {
+    display: block;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding: 10px 20px;
+}
+
+button:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+button:disabled {
+    opacity: 0.5;
+    cursor: default;
+}
+
+button:first-of-type {
+    left: 10px;
+}
+
+button:last-of-type {
+    right: 10px;
+}

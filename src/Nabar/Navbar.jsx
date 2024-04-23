@@ -10,6 +10,8 @@ const Navbar = () => {
     '--4': 10,
     '--5': 11,
     '--6': 12,
+    '--7': 13,
+    '--8': 14,
   };
 
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -48,9 +50,15 @@ const Navbar = () => {
               Skills
               </a>
               <a href="/#protfolio" style={{ '--1': iconStyles['--5'] }}>
-              Protfolio
+              Projects
               </a>
-              <a href="/#contact" style={{ '--1': iconStyles['--6'] }}>
+              <a href="/#education" style={{ '--1': iconStyles['--6'] }}>
+              Educations
+              </a>
+              <a href="/#experiences" style={{ '--1': iconStyles['--7'] }}>
+              Experience
+              </a>
+              <a href="/#contact" style={{ '--1': iconStyles['--8'] }}>
                 Contact
               </a>
             </ul>

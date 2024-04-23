@@ -5,18 +5,24 @@ import Home from './home';
 import About from './about';
 import Services from './services';
 import Skills from './Skill';
-import Portfolio from './Protfolio';
+import Project from './Protfolio';
 import Contact from './contect';
+import WorkExperience from './experiences';
+import Slideshow from './slider';
+import Education from './Education';
 
 function App() {
   return (
     <>
       <div className='App'>
         < Home />
-        <About />
+        <Slideshow/>
         <Services />
+        <Project />
+        <About />
+        <WorkExperience />
         <Skills />
-        <Portfolio />
+        <Education/>
         <Contact />
         <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>
       </div>

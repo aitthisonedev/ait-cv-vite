@@ -1,0 +1,43 @@
+.Slider{
+    text-align: center;
+    padding: 0px;
+    margin: 30px 10px  30px 10px;
+    height: auto;
+    overflow: hidden;
+    /* transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px whitesmoke; */
+   
+  }
+  
+  h1 {
+    color: #0ef;
+    margin-bottom: 20px;
+    font-size: 60px;
+  }
+  
+  .logo-slide img {
+    width:auto;
+    height:350px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+    margin-top: 50px;
+    box-shadow: 1px 1px 20px #012290f7,
+        1px 1px 40px #0053b8f7;
+  }
+  .logo-slide :hover img {
+    transform: scale(1.2);
+    transition: background 0.5s, transform 0.5s;
+    box-shadow: 1px 1px 20px #012290f7,
+        1px 1px 40px #0053b8f7;
+   
+}
+  .Slideimage {
+    text-align: center;
+    padding: 20px;
+  }
+.slick-next{
+  display: none !important;
+  margin: 0%;
+  padding: 0%;
+  width: 100%;
+}
