@@ -20,6 +20,9 @@
   object-fit: cover; /* Maintain aspect ratio while covering the size defined */
   border-radius: 50%; /* Optional: makes the image round */
 }
+.company-logo image {
+  padding: 15px;
+}
 
 .text-content {
   flex: 1;

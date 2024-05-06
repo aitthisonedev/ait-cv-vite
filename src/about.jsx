@@ -15,29 +15,26 @@ const about = () => {
         </h2>
         <h4>Full Stack Developer</h4>
         <p>
-          🌐 Tech Elegance with Lao Grace: Stay ahead of the tech curve while
-          embracing the beauty of the Lao language. It’s not just a system; it’s
-          a statement! 
-          <br></br>
-          ⏰ Updates at the Speed of Now: Time doesn’t wait, and
-          neither should your updates. Real-time insights keep you ahead in the
-          race of business evolution!
+          Pioneering Web Elegance: Elevate your online presence with the finesse
+          of web development craftsmanship. It’s not just coding; it’s a
+          symphony of digital artistry!
           <br></br>
           <br></br>
-          🌐 Tech Elegance with Lao Grace: Stay ahead of the tech curve while
-          embracing the beauty of the Lao language. It’s not just a system; it’s
-          a statement! 
+          Advancements in Real-Time Web Solutions: Your website should evolve as
+          swiftly as the digital landscape. Stay proactive with real-time
+          innovations, ensuring your online platform remains at the forefront of
+          user experience!
           <br></br>
-          ⏰ Updates at the Speed of Now: Time doesn’t wait, and
-          neither should your updates. Real-time insights keep you ahead in the
-          race of business evolution!
+          <br></br>
+          Mastering the Web with Creative Precision: Harness the power of
+          creativity and precision in every line of code. Crafting exceptional
+          web experiences isn’t just a task; it’s a testament to your dedication
+          to excellence!
         </p>
         <a href="/#contact" className="btn-box">
           More About Me
         </a>
-        <div className="about-Education">
-          {/* <Education /> */}
-        </div>
+        <div className="about-Education">{/* <Education /> */}</div>
       </div>
     </section>
   );

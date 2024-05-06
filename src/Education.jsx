@@ -10,7 +10,7 @@ const education = [
     duration: "Jan 2020 - Present",
     description:
       "Lead a team of developers in creating web applications that increased company productivity by 20%. Implemented modern development processes including CI/CD which decreased deployment failures by 25%.",
-    imageUrl: "https://media.licdn.com/dms/image/C4E0BAQGLWcztvPRogQ/company-logo_200_200/0/1663911610258/sala_daeng_logo?e=2147483647&v=beta&t=7l8qxeZgaHzpwIT8BYhpBygHpV7s0kX0rXMP4zw4eBc", // Example image URL
+    imageUrl: "/image/rbaclogo.png", // Example image URL
   },
   {
     id: 2,
@@ -20,7 +20,7 @@ const education = [
     duration: "Mar 2016 - Dec 2019",
     description:
       "Developed multiple high-traffic APIs using Node.js and Express. Improved system stability through rigorous testing and code reviews.",
-    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQz7SygeI5d2a0crqpIG03grotcZ9FLIFHnen7C-WCA&s", // Example image URL
+    imageUrl: "/image/rbaclogo.png", // Example image URL
   },
 
   // Add more education with images as needed
