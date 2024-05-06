@@ -9,12 +9,13 @@
     display: flex;
     align-items: center; /* Align items vertically */
     margin-bottom: 20px;
+    margin: 40px;
 }
 
 .company-logo {
     width: 100px; /* Set the width of the image */
     height: 100px; /* Set the height of the image */
-    margin: 0px 20px;
+    margin: 40px 40px;
     margin-top: 30px; /* Space between image and text */
     object-fit: cover; /* Maintain aspect ratio while covering the size defined */
     border-radius: 50%; /* Optional: makes the image round */
@@ -34,7 +35,7 @@
 .work-experience h2 {
     color:  #0efe;
     margin: 10px 40px;
-    font-size: 45px;
+    font-size: 35px;
 }
 
 .work-experience h3 {
@@ -48,3 +49,9 @@
     color: rgb(144, 139, 139);
     font-size: 20px;
 }
+@media (max-width: 480px) {
+    work-experience h2 {
+        font-size:25px;
+        
+    }
+  }

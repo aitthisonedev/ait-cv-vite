@@ -17,7 +17,7 @@
   
   .logo-slide img {
     width:auto;
-    height:350px;
+    height:300px;
     border-radius: 10px;
     margin-bottom: 25px;
     margin-top: 50px;
@@ -41,3 +41,20 @@
   padding: 0%;
   width: 100%;
 }
+@media screen and (max-width:880px) {
+  .Slider{
+    margin-top: 0;
+    margin-bottom: 750px;
+   
+  }
+  .logo-slide img {
+    width:auto;
+    height:200px
+  }
+  
+}
+@media screen and (max-width:480px) {
+  .Slider{
+    margin-bottom: 1200px;
+   
+  }

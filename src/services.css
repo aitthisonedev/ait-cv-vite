@@ -251,20 +251,12 @@
     }
 
 }
-@media(max-width:580px) {
+@media(max-width:480px) {
     .sup-title{
         font-size: 50px;
     }
     .services {
-        margin-bottom: 520px;
+        margin-bottom: 650px;
     }
 }
-@media(max-width:380px) {
-    .sup-title{
-        font-size: 50px;
-    }
-    .services {
-        margin-bottom: 1930px;
-        
-    }
-}
+

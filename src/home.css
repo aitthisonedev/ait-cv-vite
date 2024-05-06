@@ -22,7 +22,7 @@ body {
     position: relative;
     width: 100%;
     justify-content: space-between;
-    height: 85vh;
+    height: 75vh;
     background: url(/image/aittisonebg.jpg);
     background-size:cover;
     background-position:center;
@@ -223,8 +223,9 @@ body {
         background: none;
         display: flex;
         align-items: center;
-        margin-bottom: 100px;
+        margin-bottom: 250px;
         margin-top: 0px;
+        height: 60vh;
     }
 
     .me-img {
@@ -267,5 +268,14 @@ body {
     }
     
 }
+   
+@media screen and (max-width:480px) {
+  
+    .home {
+        margin-bottom: 220px;
+    }
+}
+    
+
 
 

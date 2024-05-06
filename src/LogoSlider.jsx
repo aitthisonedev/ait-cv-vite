@@ -25,7 +25,7 @@ const LogoSlider = ({ logos, linkTo }) => {
             {
                 breakpoint: 880,
                 settings: {
-                    slidesToShow: 1,
+                    slidesToShow: 2,
                 },
             },
             {

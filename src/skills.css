@@ -1,7 +1,7 @@
 
 .Skills{
     margin-top: 50px;
-    height: 1000px ;
+    height: 950px ;
     max-width: 100%;
     /* margin-bottom: 200px; */
     /* background-color: #fff; */
@@ -41,6 +41,7 @@
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
+    color: #fff;
 }
 
 .bar {
@@ -325,6 +326,7 @@
     .Skills {
         justify-content: center;
         margin-bottom: 0;
+        height: 1450px ;
     }
 
     .container1 {
@@ -340,6 +342,7 @@
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
         margin-bottom: 40px;
+    
     }
 
     .skilss-container {
@@ -357,21 +360,6 @@
     }
 
 
-}
-
-@media(max-width:580px) {
-    .container1 {
-        width: 45%;
-        height: 100%;
-        padding:0 40px;
-        margin-left: 0%;
-    }
-
-    .sup-skills {
-        text-align: center;
-        margin-bottom: 20px;
-
-    }
 }
 
 @media(max-width:480px) {
@@ -394,6 +382,10 @@
     }
     .Skills{
         margin-bottom: 50PX;
-        margin-top: 700px;
+        margin-top: 40px;
+        height: 1300px ;
+    }
+    .heading1 {
+        font-size: 35px;
     }
 }
