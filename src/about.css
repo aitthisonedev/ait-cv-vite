@@ -5,12 +5,15 @@
   grid-gap: 5px;
 }
 
+
 .about-img img {
-  max-width: 630px;
-  height: auto;
-  width: 100%;
+  width: auto;
+  height:650px;
   border-radius: 10px;
   margin-left: 40px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 
 .about-text h2 {
@@ -52,9 +55,6 @@
 @media (max-width: 880px) {
   .about {
     margin-bottom: 50px;
-    /* display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    align-items: center; */
     grid-gap: 50px;
   }
   .about-img img {

@@ -20,11 +20,20 @@ const about = () => {
           a statement! ⏰ Updates at the Speed of Now: Time doesn’t wait, and
           neither should your updates. Real-time insights keep you ahead in the
           race of business evolution!
+          <br></br>
+          <br></br>
+          🌐 Tech Elegance with Lao Grace: Stay ahead of the tech curve while
+          embracing the beauty of the Lao language. It’s not just a system; it’s
+          a statement! ⏰ Updates at the Speed of Now: Time doesn’t wait, and
+          neither should your updates. Real-time insights keep you ahead in the
+          race of business evolution!
         </p>
         <a href="/#contact" className="btn-box">
           More About Me
         </a>
-      {/* <Education /> */}
+        <div className="about-Education">
+          {/* <Education /> */}
+        </div>
       </div>
     </section>
   );

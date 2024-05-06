@@ -9,7 +9,7 @@ const Home = () => {
     <section className="home" id="home">
       <div className="home-content">
         <div className="me-img">
-        <img src="image/Ait-Bg.png" alt="Aittisone" />
+        <img src="image/aittisonepng.png" alt="Aittisone" />
         </div>
         <h3>Hello, I am Mr.</h3>
         <h1>Aitthisone Duangsompheang</h1>
