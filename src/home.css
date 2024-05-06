@@ -23,7 +23,7 @@ body {
     width: 100%;
     justify-content: space-between;
     height: 85vh;
-    background: url(./image/Aittisonebg.jpg);
+    background: url(/image/aittisonebg.jpg);
     background-size:cover;
     background-position:center;
     display: flex;
