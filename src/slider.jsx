@@ -5,19 +5,13 @@ import './Slider.css';
 import LogoSlider from './LogoSlider';
 const Slider = () => {
   const logos = [
-    "https://marketplace.canva.com/EAFlVDzb7sA/1/0/1600w/canva-white-gold-elegant-modern-certificate-of-participation-bK_WEelNCjo.jpg", // Replace with actual URLs of your certificates
-    "https://images.template.net/297220/Certificate-Design-Template-edit-online-2.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
-    "https://piktochart.com/wp-content/uploads/2023/05/large-271-600x424.jpg",
+    "/image/certificate01.jpg",
+    "/image/certificate02.jpg",
+    "/image/certificate03.jpg",
+    "/image/certificate04.jpg",
+    "/image/certificate05.jpg",
+    "/image/certificate06.jpg",
+    "/image/certificate07.jpg",
 ];
 
   return (
