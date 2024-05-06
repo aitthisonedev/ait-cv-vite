@@ -10,7 +10,7 @@ const Skills = () => {
             <h1 className="sup-skills">My <span>Skills</span></h1>
             <div className="skilss-container">
                 <div className="container1">
-                    <h1 className="heading1">Technical skills</h1>
+                    <h2 className="heading1">Technical skills</h2>
                     <div className="Technical-bars">
                         <div className="bar"><i style={{ color: '#c95d2e' }} className="fa-brands fa-html5"></i>
                             <div className="info">
@@ -55,7 +55,7 @@ const Skills = () => {
                     </div>
                 </div>
                 <div className="container1">
-                    <h1 className="heading1">Professional skills</h1>
+                    <h2 className="heading1">Professional skills</h2>
                     <div className="radial-bars-container">
                         <div className="radial-bars">
                             <svg x="0px" y="0px" viewBox="0 0 200 200">

@@ -39,6 +39,7 @@
 
 .sup-title span {
     color: #0ef;
+    
 }
 
 .container {
@@ -257,6 +258,11 @@
     }
     .services {
         margin-bottom: 650px;
+    }
+    .sup-title {
+        text-align: left;
+        font-size: 35px;
+    
     }
 }
 

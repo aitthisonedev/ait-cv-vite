@@ -2,7 +2,7 @@
 .work-experience ul {
     list-style: none;
     padding: 0;
-    margin: 40px 40px;
+    margin: 30px 30px;
 }
 
 .experience-entry {
@@ -15,7 +15,6 @@
 .company-logo {
     width: 100px; /* Set the width of the image */
     height: 100px; /* Set the height of the image */
-    margin: 40px 40px;
     margin-top: 30px; /* Space between image and text */
     object-fit: cover; /* Maintain aspect ratio while covering the size defined */
     border-radius: 50%; /* Optional: makes the image round */
@@ -34,14 +33,14 @@
 
 .work-experience h2 {
     color:  #0efe;
-    margin: 10px 40px;
+    /* margin: 10px 30px; */
     font-size: 35px;
 }
 
 .work-experience h3 {
     color: white;
     margin: 20px 0;
-    font-weight: 700;
+    font-weight: 500;
 }
 
 
@@ -53,5 +52,8 @@
     work-experience h2 {
         font-size:25px;
         
+    }
+    .company-logo {
+        margin: 0px 0px;/* Optional: makes the image round */
     }
   }

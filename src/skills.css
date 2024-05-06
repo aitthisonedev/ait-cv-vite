@@ -3,6 +3,7 @@
     margin-top: 50px;
     height: 950px ;
     max-width: 100%;
+    margin: 0px;
     /* margin-bottom: 200px; */
     /* background-color: #fff; */
     overflow: hidden;
@@ -37,7 +38,7 @@
 
 .heading1 {
     text-align: center;
-    text-decoration: underline;
+    /* text-decoration: underline; */
     text-underline-offset: 10px;
     text-decoration-thickness: 5px;
     margin-bottom: 50px;
@@ -338,7 +339,7 @@
 
     .heading1 {
         text-align: center;
-        text-decoration: underline;
+        /* text-decoration: underline; */
         text-underline-offset: 10px;
         text-decoration-thickness: 5px;
         margin-bottom: 40px;
@@ -385,7 +386,17 @@
         margin-top: 40px;
         height: 1300px ;
     }
-    .heading1 {
+    
+    .sup-skills {
+        text-align: left;
         font-size: 35px;
+        margin-left: 40px;
+    
     }
+    .container1 h2 {
+        display: flex;
+        justify-content: left;
+        text-decoration: none;
+    }
+    
 }

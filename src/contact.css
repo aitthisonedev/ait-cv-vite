@@ -167,4 +167,11 @@ form .Send:hover {
     }
    
 }
+@media screen and (max-width: 480px) {
+    .contact-text h2 {
+        font-size: 35px;
+    
+    }
+   
+}
 
