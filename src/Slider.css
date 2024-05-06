@@ -11,7 +11,6 @@
   
   h1 {
     color: #0ef;
-    margin-bottom: 20px;
     font-size: 56px;
   }
   
@@ -50,18 +49,22 @@
   }
   .logo-slide img {
     width:auto;
-    height:200px
+    height:220px
   }
   
 }
 @media screen and (max-width:480px) {
   .Slider{
-    margin-bottom: 1250px;
+    margin-bottom: 1150px;
    
   }
   h1 {
     font-size: 35px;
     display: flex;
     justify-content: 10px;
+  }
+  .logo-slide img {
+    width:auto;
+    height:210px
   }
 }

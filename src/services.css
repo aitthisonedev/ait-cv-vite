@@ -43,20 +43,20 @@
 }
 
 .container {
-    padding: 30px;
+    padding: 40px;
 
 }
 
 .services-list {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 30px;
+    grid-gap: 25px;
 
 }
 
 .services-list div {
     background-color: transparent;
-    padding: 40px;
+    padding: 30px;
     font-size: 13px;
     font-weight: 13px;
     border-right: 10px;
@@ -257,12 +257,16 @@
         font-size: 50px;
     }
     .services {
-        margin-bottom: 650px;
+        margin-bottom: 600px;
+        
     }
     .sup-title {
         text-align: left;
         font-size: 35px;
     
+    }
+    .container {
+    padding-left: 25px;
     }
 }
 

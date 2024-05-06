@@ -17,7 +17,6 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
     grid-gap: 20px;
-    padding: 40px;
 }
 
 .row-one {
@@ -25,14 +24,14 @@
     overflow: hidden;
     border-radius: 20px;
     cursor: pointer;
-    margin: 2opx 40px;
+    margin: 30px;
 }
 
 .row-one img {
     width: 100%;
     border-radius: 20px;
     display: block;
-    padding: 60px;
+    padding: 50px;
     transition: transform 0.5s;
 }
 
@@ -150,5 +149,13 @@
         text-align: left;
         margin-left: 40px;
     
+    }
+    .row-one img {
+        
+        padding-left: 20px;
+    }
+    .protfolio-content{
+        margin-left: 0%;
+        padding-left: 25px;
     }
 }

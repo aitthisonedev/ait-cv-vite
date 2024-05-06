@@ -1,25 +1,22 @@
-.work-experience {
-  margin: 40px 0px;
-  padding-left: 0%;
-}
+
 .work-experience ul {
   list-style: none;
-  padding: 0;
-  margin: 40px 0px;
+  padding: 0px;
+  margin: opx;
 }
 
 .experience-entry {
     
   display: flex;
   align-items: center; /* Align items vertically */
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .company-logo {
   width: 100px; /* Set the width of the image */
   height: 100px; /* Set the height of the image */
-  margin: 0px 20px;
-  margin-top: 30px; /* Space between image and text */
+  margin-right: 20px;
+  margin-left: 0px; /* Space between image and text */
   object-fit: cover; /* Maintain aspect ratio while covering the size defined */
   border-radius: 50%; /* Optional: makes the image round */
 }
@@ -29,14 +26,14 @@
 }
 
 .work-experience li {
-  padding-bottom: 10px;
   border-bottom: 1px solid gray;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+
 }
 
 .work-experience h2 {
   color: #0efe;
-  margin: 10px 40px;
+  margin: 10px 30px;
   font-size: 45px;
 }
 
@@ -49,15 +46,23 @@
 .work-experience p {
   color: rgb(144, 139, 139);
   font-size: 20px;
+  padding: 0px;
 }
 @media screen and (max-width:480px) {
   .experience-entry {
     
     display:flex;
     flex-direction: column;
+    margin: 0%;
+    padding: 0%;
   }
   .work-experience h2 {
     font-size: 35px;
+    margin-left: 30px;
+  }
+  .company-logo {
+    justify-content: left;
+    margin-left: -200px;
   }
    
   }
