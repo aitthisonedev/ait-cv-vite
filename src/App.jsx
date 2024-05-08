@@ -5,7 +5,7 @@ import Home from './home';
 import About from './about';
 import Services from './services';
 import Skills from './Skill';
-import Project from './Protfolio';
+// import Project from './Protfolio';
 import Contact from './contect';
 import WorkExperience from './experiences';
 import Slideshow from './slider';
@@ -18,7 +18,7 @@ function App() {
         < Home />
         <Slideshow/>
         <Services />
-        <Project />
+        {/* <Project /> */}
         <About />
         <WorkExperience />
         <Skills />

@@ -60,12 +60,32 @@
     padding: 0%;
   }
   .work-experience h2 {
-    font-size: 35px;
-    margin-left: 30px;
+    font-size: 25px;
+    margin-left:5px;
+    margin-bottom: -30px;
   }
   .company-logo {
     justify-content: left;
-    margin-left: -200px;
+    margin-left: -250px;
+  }
+   
+  }
+@media screen and (max-width:320px) {
+  .experience-entry {
+    
+    display:flex;
+    flex-direction: column;
+    margin: 0%;
+    padding: 0%;
+  }
+  .work-experience h2 {
+    font-size: 25px;
+    margin-left:5px;
+
+  }
+  .company-logo {
+    justify-content: left;
+    margin-left: -180px;
   }
    
   }

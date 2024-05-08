@@ -51,9 +51,16 @@
 @media (max-width: 480px) {
     work-experience h2 {
         font-size:25px;
+        margin: 0%;
+        padding: 0%;
         
     }
-    .company-logo {
-        margin: 0px 0px;/* Optional: makes the image round */
+    .company-logo-x {
+        margin: 0px 15px;/* Optional: makes the image round */
+    }
+    .work-experience ul {
+        list-style: none;
+        padding: 0;
+        margin: 30px 5px;
     }
   }

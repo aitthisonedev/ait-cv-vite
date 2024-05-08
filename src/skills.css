@@ -367,8 +367,8 @@
     .container1 {
         width: 45%;
         height: 100%;
-        padding: 0 40px;
-        margin-left: 0%;
+        margin:5px;
+        padding: 0%;
     }
 
     .sup-skills {
@@ -385,12 +385,12 @@
         margin-bottom: 50PX;
         margin-top: 40px;
         height: 1250px ;
+        margin: 5px;
     }
     
     .sup-skills {
         text-align: left;
         font-size: 35px;
-        margin-left: 40px;
     
     }
     .container1 h2 {
@@ -399,4 +399,40 @@
         text-decoration: none;
     }
     
+}
+@media(max-width:320px) {
+    
+    .container1 {
+        width:100%;
+        height: auto;
+        margin:5px;
+        padding: 0%;
+        margin-right: -15px;
+    }
+    .radial-bars-container .radial-bars {
+        width: 50%;
+        height: 170px;
+        margin-bottom: 10px;
+        position: relative;
+    }
+    
+    .radial-bars-container .radial-bars svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%) rotate(-90deg);
+        width: 120px;
+        height: 160px;
+    
+    }
+    
+    .radial-bars-container .radial-bars .progress-bar {
+        stroke-width: 10;
+        stop-color: black;
+        fill: transparent;
+        stroke-dasharray: 502;
+        stroke-dashoffset: 502;
+        stroke-linecap: round;
+        animation: animate-bar 1s linear forwards;
+    }
 }

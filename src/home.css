@@ -28,7 +28,7 @@ body {
     background-position:center;
     display: flex;
     align-items: center;
-    padding: 70px 5% 0;
+    padding: 75px 3% 0;
     opacity: 0;
     animation: slideTop .5s ease forwards;
     animation-delay: calc(.2s * var(--1));
@@ -44,7 +44,7 @@ body {
 }
 
 .home-content h3 {
-    font-size: 32px;
+    font-size: 25px;
     font-weight: 700;
     opacity: 0;
     animation: slideBottom 1s ease forwards;
@@ -72,7 +72,7 @@ body {
 }
 
 .home-content p {
-    font-size: 20px;
+    font-size: 18px;
     opacity: 0;
     animation: slideLeft 1s ease forwards;
     animation-delay: 1s;
@@ -260,6 +260,7 @@ body {
     }
     .home-content p {
         margin: 10px 0;
+        margin-right: 5px;
     }
     .home-content
     .btn-box {
@@ -272,7 +273,20 @@ body {
 @media screen and (max-width:480px) {
   
     .home {
-        margin-bottom: 220px;
+        margin-bottom: 170px;
+    }
+    .home-content h1 {
+        font-size: 25px;
+    }
+}
+@media screen and (max-width:320px) {
+  
+    .home {
+        margin-bottom: 170px;
+        height: 80vh;
+    }
+    .home-content h1 {
+        font-size: 25px;
     }
 }
     

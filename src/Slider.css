@@ -55,16 +55,30 @@
 }
 @media screen and (max-width:480px) {
   .Slider{
-    margin-bottom: 1150px;
+    margin-bottom: 1000px;
    
   }
   h1 {
     font-size: 35px;
     display: flex;
-    justify-content: 10px;
+    justify-content: left;
   }
   .logo-slide img {
     width:auto;
     height:210px
+  }
+}
+@media screen and (max-width:320px) {
+  .Slider{
+    margin-bottom: 1130px;
+   
+  }
+ 
+  .logo-slide img {
+    width:auto;
+    height:150px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+  
   }
 }
