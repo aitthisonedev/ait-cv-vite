@@ -318,8 +318,8 @@
 .protfolio-content {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
-    grid-gap: 40px;
-    padding: 40px;
+    grid-gap: 30px;
+    padding: 30px;
 }
 
 
@@ -367,14 +367,14 @@
     .container1 {
         width: 45%;
         height: 100%;
-        margin:5px;
-        padding: 0%;
+        margin:0px;
+        padding: 0px;
     }
 
     .sup-skills {
         text-align: center;
         margin-bottom: 20px;
-        margin-top: 30PX;
+        margin-top: 20px;
 
     }
     .radial-bars-container  {
@@ -382,7 +382,7 @@
 
     }
     .Skills{
-        margin-bottom: 50PX;
+        margin-bottom: 0px;
         margin-top: 40px;
         height: 1250px ;
         margin: 5px;
@@ -403,36 +403,19 @@
 @media(max-width:320px) {
     
     .container1 {
-        width:100%;
-        height: auto;
-        margin:5px;
+        width: 35%;
+        height: 100%;
+        margin:0px;
         padding: 0%;
-        margin-right: -15px;
     }
     .radial-bars-container .radial-bars {
-        width: 50%;
-        height: 170px;
-        margin-bottom: 10px;
+        width: 45%;
+        height: 150px;
+        margin: 0px;
         position: relative;
     }
-    
-    .radial-bars-container .radial-bars svg {
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-50%, -50%) rotate(-90deg);
-        width: 120px;
-        height: 160px;
-    
+    .Skills{
+        margin-bottom: -60px;
     }
     
-    .radial-bars-container .radial-bars .progress-bar {
-        stroke-width: 10;
-        stop-color: black;
-        fill: transparent;
-        stroke-dasharray: 502;
-        stroke-dashoffset: 502;
-        stroke-linecap: round;
-        animation: animate-bar 1s linear forwards;
-    }
 }
