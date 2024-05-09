@@ -274,12 +274,12 @@ body {
   
     .home {
         margin-bottom: 200px;
-        height: 200hv;
 
     }
     .home-content {
         margin-bottom:-20px;
         height: auto;
+        background-color: aqua;
 
     }
     .home-content h1 {
