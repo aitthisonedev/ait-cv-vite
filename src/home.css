@@ -279,11 +279,14 @@ body {
     .home-content {
         height: auto;
         background-color: aqua;
-        padding: 10px 0px;
 
     }
     .home-content h1 {
         font-size: 25px;
+    }
+    .me-img img {
+        margin-top:100px;
+
     }
 }
 @media screen and (max-width:320px) {
