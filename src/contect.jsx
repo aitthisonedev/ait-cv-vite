@@ -49,9 +49,6 @@ const Contact = () => {
           <a href="https://www.instagram.com/aittisone_dsp/" target="_Bank" style={{ "--1": 7 }} className="active">
             <i className="fa-brands fa-square-instagram"></i>
           </a>
-          <a href="https://www.instagram.com/aittisone_dsp/" target="_Bank" style={{ "--1": 8 }} className="active">
-          <i className="fa-brands fa-linkedin"></i>
-          </a>
           <a href="https://api.whatsapp.com/send?phone=8562078866695" target="_Bank" style={{ "--1": 9 }} className="active">
             <i className="fa-brands fa-square-whatsapp"></i>
           </a>
