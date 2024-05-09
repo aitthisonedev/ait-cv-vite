@@ -273,8 +273,8 @@ body {
 @media screen and (max-width:480px) {
   
     .home {
-        margin-bottom: 180px;
-        height: auto;
+        margin-bottom: 140px;
+        height: 560px;
 
     }
     .home-content {
@@ -284,10 +284,10 @@ body {
     .home-content h1 {
         font-size: 25px;
     }
-    .me-img img {
+    /* .me-img img {
         margin-top:100px;
 
-    }
+    } */
 }
 @media screen and (max-width:320px) {
   
