@@ -274,7 +274,7 @@ body {
   
     .home {
         margin-bottom: 180px;
-        height: 60hv;
+        height: 70hv;
 
     }
     .home-content h1 {
@@ -284,8 +284,8 @@ body {
 @media screen and (max-width:320px) {
   
     .home {
-        margin-bottom: 230px;
-        height:80vh;
+        margin-bottom: 180px;
+        height:100vh;
     }
     .home-content h1 {
         font-size: 25px;
