@@ -273,8 +273,13 @@ body {
 @media screen and (max-width:480px) {
   
     .home {
-        margin-bottom: 180px;
-        height: 100hv;
+        margin-bottom: 200px;
+        height: 130hv;
+
+    }
+    .home-content {
+        margin-bottom:-20px;
+        height: auto;
 
     }
     .home-content h1 {
