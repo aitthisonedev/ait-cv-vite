@@ -230,7 +230,6 @@ body {
 
     .me-img {
         display: block;
-        margin-top: 10px;
 
     }
 
@@ -280,6 +279,7 @@ body {
     .home-content {
         height: auto;
         background-color: aqua;
+        padding: 10px 0px;
 
     }
     .home-content h1 {
