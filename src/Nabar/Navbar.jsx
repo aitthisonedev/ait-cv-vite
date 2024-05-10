@@ -40,23 +40,23 @@ const Navbar = () => {
               <a href="/#home" style={{ '--1': iconStyles['--1'] }}>
                 Home
               </a>
-              <a href="/#about" style={{ '--1': iconStyles['--2'] }}>
-              About
-              </a>
-              <a href="/#services" style={{ '--1': iconStyles['--3'] }} >
+              <a href="/#services" style={{ '--1': iconStyles['--2'] }} >
               Services
               </a>
-              <a href="/#skills" style={{ '--1': iconStyles['--4'] }}>
-              Skills
-              </a>
-              <a href="/#protfolio" style={{ '--1': iconStyles['--5'] }}>
+              <a href="/#protfolio" style={{ '--1': iconStyles['--3'] }}>
               Projects
               </a>
-              <a href="/#education" style={{ '--1': iconStyles['--6'] }}>
-              Educations
+              <a href="/#about" style={{ '--1': iconStyles['--4'] }}>
+              About
               </a>
-              <a href="/#experiences" style={{ '--1': iconStyles['--7'] }}>
+              <a href="/#experiences" style={{ '--1': iconStyles['--5'] }}>
               Experience
+              </a>
+              <a href="/#skills" style={{ '--1': iconStyles['--6'] }}>
+              Skills
+              </a>
+              <a href="/#education" style={{ '--1': iconStyles['--7'] }}>
+              Educations
               </a>
               <a href="/#contact" style={{ '--1': iconStyles['--8'] }}>
                 Contact

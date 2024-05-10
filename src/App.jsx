@@ -23,8 +23,8 @@ function App() {
         <WorkExperience />
         <Skills />
         <Education/>
-        <Contact />
         <MapEmbed />
+        <Contact />
 
         <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>
       </div>
