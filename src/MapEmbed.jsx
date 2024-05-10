@@ -6,7 +6,7 @@ const MapEmbed = () => {
     width: "100%",
     height: "400px",
     padding: "30px",
-    marginBottom: "10px",
+    marginBottom: "0px",
     overflow: "hidden", // Ensures the inner content is clipped to this container
     borderRadius: "10px", // Applies border radius to the container
     boxShadow: "0 4px 8px rgba(0,0,0,0.1)", // Optional: Adds shadow for better UI effect

@@ -11,7 +11,7 @@ const Home = () => {
         <div className="me-img">
         <img src="image/aittisonepng.png" alt="Aittisone" />
         </div>
-        <h3>Hello, I am Mr.</h3>
+        {/* <h3>Hello, I am Mr.</h3> */}
         <h1>Aitthisone Duangsompheang</h1>
         <h3><span ><TypedComponent /></span>
         </h3>
