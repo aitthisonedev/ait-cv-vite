@@ -13,7 +13,7 @@ const experiences = [
     imageUrl: "/image/devIcon.png", // Example image URL
   },
   {
-    id: 1,
+    id: 2,
     company: "SalaDaeng (Lao) Company Limited",
     title: "Account Executive",
     location: "Laos-Thailand",
@@ -23,7 +23,7 @@ const experiences = [
     imageUrl: "https://media.licdn.com/dms/image/C4E0BAQGLWcztvPRogQ/company-logo_200_200/0/1663911610258/sala_daeng_logo?e=2147483647&v=beta&t=7l8qxeZgaHzpwIT8BYhpBygHpV7s0kX0rXMP4zw4eBc", // Example image URL
   },
   {
-    id: 1,
+    id: 3,
     company: "Industeklao Company Limited",
     title: "Sales Manager",
     location: "Vientiane Lao PDR",
@@ -33,7 +33,7 @@ const experiences = [
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRQz7SygeI5d2a0crqpIG03grotcZ9FLIFHnen7C-WCA&s", // Example image URL
   },
   {
-    id: 1,
+    id: 4,
     company: "Smartklin Company Limited",
     title: "General Manager",
     location: "Vientiane Lao PDR",
@@ -43,7 +43,7 @@ const experiences = [
     imageUrl: "https://lab-108-bucket.s3-ap-southeast-1.amazonaws.com/company-images/10ffd56f-2490-408c-a1f8-970dae7d5921.jpeg", // Example image URL
   },
   {
-    id: 1,
+    id: 5,
     company: "New Concept Macro finance ",
     title: "Loan officer",
     location: "Vientiane Lao PDR",
@@ -53,7 +53,7 @@ const experiences = [
     imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSkU0Nx_Qa9Ry0HIMbYURoXeNFdreIJUplGLBekEuXaDQ&s", // Example image URL
   },
   {
-    id: 1,
+    id: 6,
     company: "Phetnakhone Company Limited",
     title: "Construction Engineer",
     location: "Veintiane Lao PDR",

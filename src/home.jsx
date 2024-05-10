@@ -12,9 +12,10 @@ const Home = () => {
         <img src="image/aittisonepng.png" alt="Aittisone" />
         </div>
         {/* <h3>Hello, I am Mr.</h3> */}
-        <h1>Aitthisone Duangsompheang</h1>
+        <h1>Aitthisone <br />Duangsompheang</h1>
         <h3><span ><TypedComponent /></span>
         </h3>
+        <br />
         <p>
           I m a web Designer with extensive experience for over 5 years. My
           expertise is in creating website designs and Frontend Design.

@@ -89,6 +89,22 @@ const Skills = () => {
                             <div className="percentage">85%</div>
                             <div className="text">Team work</div>
                         </div>
+                        <div className="radial-bars">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle className="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle className="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div className="percentage">95%</div>
+                            <div className="text">Computer skill</div>
+                        </div>
+                        <div className="radial-bars">
+                            <svg x="0px" y="0px" viewBox="0 0 200 200">
+                                <circle className="progress-bar" cx="100" cy="100" r="80"></circle>
+                                <circle className="path path-4" cx="100" cy="100" r="80"></circle>
+                            </svg>
+                            <div className="percentage">95%</div>
+                            <div className="text">ffice & Midia</div>
+                        </div>
                     </div>
                 </div>
             </div>

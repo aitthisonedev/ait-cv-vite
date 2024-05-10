@@ -327,7 +327,7 @@
     .Skills {
         justify-content: center;
         margin-bottom: 0;
-        height: 1400px ;
+        height: 1550px ;
         margin-bottom: -80px;
     }
 
@@ -335,7 +335,7 @@
         width: 75%;
         height: 100%;
         padding: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 30px;
     }
 
     .heading1 {
@@ -385,7 +385,7 @@
     .Skills{
         margin-bottom: 0px;
         margin-top: 40px;
-        height: 1250px ;
+        height: 1430px ;
         margin: 5px;
     }
     
@@ -417,6 +417,7 @@
     }
     .Skills{
         margin-bottom: -60px;
+        height: 1400px;
     }
     
 }
