@@ -1,0 +1,11 @@
+@media screen and (max-width: 480px) {
+  .MapEmbed {
+    padding: "5px";
+  }
+}
+.MapEmbed {
+  padding: "40px";
+  margin: 40px;
+  background-color: bisque;
+  overflow: hidden;
+}

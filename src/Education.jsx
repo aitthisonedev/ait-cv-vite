@@ -22,6 +22,16 @@ const education = [
       "Developed multiple high-traffic APIs using Node.js and Express. Improved system stability through rigorous testing and code reviews.",
     imageUrl: "/image/rbaclogo.png", // Example image URL
   },
+  {
+    id: 3,
+    company: "Industeklao Company Limited",
+    title: "Software Engineer",
+    location: "San Francisco, CA",
+    duration: "Mar 2016 - Dec 2019",
+    description:
+      "Developed multiple high-traffic APIs using Node.js and Express. Improved system stability through rigorous testing and code reviews.",
+    imageUrl: "/image/rbaclogo.png", // Example image URL
+  },
 
   // Add more education with images as needed
 ];
@@ -29,7 +39,10 @@ const education = [
 const Education = () => {
   return (
     <div className="work-experience" id="education">
+      
       <h2>Education History</h2>
+      <div className="grid-control">
+      <img className="per-image" src="/image/Ait-h.png" alt="" />
       <ul>
         {education.map((exp) => (
           <li key={exp.id}>
@@ -52,6 +65,7 @@ const Education = () => {
           </li>
         ))}
       </ul>
+      </div>
     </div>
   );
 };

@@ -5,12 +5,12 @@ import Home from './home';
 import About from './about';
 import Services from './services';
 import Skills from './Skill';
-// import Project from './Protfolio';
+import Project from './Protfolio';
 import Contact from './contect';
 import WorkExperience from './experiences';
 import Slideshow from './slider';
 import Education from './Education';
-
+import MapEmbed from './MapEmbed'
 function App() {
   return (
     <>
@@ -18,12 +18,14 @@ function App() {
         < Home />
         <Slideshow/>
         <Services />
-        {/* <Project /> */}
+        <Project />
         <About />
         <WorkExperience />
         <Skills />
         <Education/>
         <Contact />
+        <MapEmbed />
+
         <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>
       </div>
     </>

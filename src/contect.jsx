@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useRef, useState } from "react";
 import "./contact.css";
-import Form from './ContactForm';
+import Form from "./ContactForm";
 const Contact = () => {
   return (
     <section className="contact" id="contact">
@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
         </div>
         <div className="contact-form">
-            <Form/>
+          <Form />
         </div>
       </div>
     </section>

@@ -1,4 +1,17 @@
-
+.grid-control {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
+  grid-gap: 20px;
+  padding: 0 20px;
+  align-items: center;
+}
+.grid-control .per-image{
+width:auto;
+height: auto;
+margin-left: 10px;
+border-radius: 10px;
+overflow: hidden;
+}
 .work-experience ul {
   list-style: none;
   padding: 0px;
@@ -6,7 +19,6 @@
 }
 
 .experience-entry {
-    
   display: flex;
   align-items: center; /* Align items vertically */
   margin-bottom: 10px;
@@ -31,7 +43,6 @@
 .work-experience li {
   border-bottom: 1px solid gray;
   margin-bottom: 10px;
-
 }
 
 .work-experience h2 {
@@ -51,41 +62,53 @@
   font-size: 20px;
   padding: 0px;
 }
-@media screen and (max-width:480px) {
+@media screen and (max-width: 880px) {
+  .grid-control {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+    margin-top: 50px;
+  }
+  .grid-control .per-image{
+  width: 100%;
+  height: auto;
+  margin-left: 10px;
+  border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 480px) {
   .experience-entry {
-    
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin: 0%;
     padding: 0%;
   }
   .work-experience h2 {
     font-size: 25px;
-    margin-left:5px;
+    margin-left: 5px;
     margin-bottom: -30px;
   }
   .company-logo {
     justify-content: left;
-    margin-left: -250px;
+    margin-left: -240px;
   }
-   
-  }
-@media screen and (max-width:320px) {
+}
+@media screen and (max-width: 320px) {
   .experience-entry {
-    
-    display:flex;
+    display: flex;
     flex-direction: column;
     margin: 0%;
     padding: 0%;
   }
   .work-experience h2 {
     font-size: 25px;
-    margin-left:5px;
-
+    margin-left: 5px;
   }
   .company-logo {
     justify-content: left;
     margin-left: -180px;
   }
-   
-  }
+}
