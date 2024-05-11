@@ -29,6 +29,7 @@
 
 .row-one img {
     width: 100%;
+    height: auto;
     border-radius: 20px;
     display: block;
     padding: 50px;

@@ -224,6 +224,12 @@
   .container-contral {
     height: 70px;
   }
+  .menu-icon {
+    font-size: 25px;
+    top: 20px;
+    right: 10px;
+   
+  }
 }
 
 @keyframes slideLeft {
@@ -282,11 +288,5 @@
     display: flex;
     justify-content:left;
   }
-  .menu-icon {
-    font-size: 25px;
-    margin-right: 5px;
-    top: 25px;
-    right: 5px;
-   
-  }
+ 
 }
