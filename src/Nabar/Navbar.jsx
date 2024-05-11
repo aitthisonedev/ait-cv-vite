@@ -32,7 +32,7 @@ const Navbar = () => {
       <nav className={`navbar ${isMenuOpen ? 'active' : 'container'}`}>
         <div className="container-contral ">
           <div className="logo">
-            <a href="/"><i className="fa-solid fa-layer-group"></i>Aittisone DSP</a>
+            <a href="/"><i className="fa-solid fa-layer-group"></i>Aitthisone DSP</a>
           </div>
 
           <div className={`menu ${isMenuOpen ? 'open' : ''}`}>

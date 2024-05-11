@@ -17,7 +17,7 @@ const Services = () => {
                             <p>
                             UX/UI Design focuses on creating intuitive, engaging digital experiences. UX (User Experience) enhances usability, while UI (User Interface) designs the visual elements, ensuring seamless interaction between users and products.
                             </p>
-                            <a href="#Contact" className="read">Learn More</a>
+                            <a href="#contact" className="read">Learn More</a>
                         </div>
 
                          {/* Server2 */}
@@ -27,7 +27,7 @@ const Services = () => {
                             <p>
                             Frontend Developers craft the look and feel of websites and apps you interact with. They use code to bring designs to life, making your digital experience seamless and enjoyable.
                             </p>
-                            <a href="#Contact" className="read">Learn More</a>
+                            <a href="#contact" className="read">Learn More</a>
                         </div>
 
                     {/* Server3 */}
@@ -38,7 +38,7 @@ const Services = () => {
                             <p>
                             At Appellation, we specialize in crafting captivating digital experiences. Our Frontend Developers breathe life into designs, ensuring seamless interaction for users. Elevate your brand with our expertise.
                             </p>
-                            <a href="#Contact" className="read">Learn More</a>
+                            <a href="#contact" className="read">Learn More</a>
                         </div>
                     {/* Server4 */}
                         <div>
@@ -47,7 +47,7 @@ const Services = () => {
                             <p>
                             At Srervice, we not only excel in crafting captivating digital experiences, but also customize our services to suit your unique needs. Elevate your brand with tailored frontend development solutions.
                             </p>
-                            <a href="#Contact" className="read">Learn More</a>
+                            <a href="#contact" className="read">Learn More</a>
                         </div>
                     </div>
                 </div>
