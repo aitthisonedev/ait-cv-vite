@@ -32,7 +32,7 @@ const about = () => {
           to excellence!
         </p>
         <a href="/#contact" className="btn-box">
-          More About Me
+          Contact
         </a>
         <div className="about-Education">{/* <Education /> */}</div>
       </div>

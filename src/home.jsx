@@ -39,8 +39,8 @@ const Home = () => {
             <i className="fa-brands fa-line"></i>
           </a>
         </div>
-        <a href="/contact" className="btn-box">
-          More about Me
+        <a href="#about" className="btn-box">
+          Lead More
         </a>
       </div>
       <span className="home-imagHover"></span>
