@@ -9,7 +9,7 @@ const experiences = [
     location: "Laos",
     duration: "2016 - Present",
     description:
-      " With a passion for technology that began during my school days, I have amassed over 8 years of experience in web application development. As a dedicated freelancer, I specialize in creating tailored solutions that precisely meet client needs, from dynamic websites to versatile applications. My journey in tech has been fueled by a constant desire to learn and innovate, ensuring that every project I undertake not only meets but exceeds expectations <br><br/Inviting you to explore the possibilities with my services—where your vision is transformed into digital reality.",
+      " With a passion for technology that began during my school days, I have amassed over 8 years of experience in web application development. As a dedicated freelancer, I specialize in creating tailored solutions that precisely meet client needs, from dynamic websites to versatile applications. My journey in tech has been fueled by a constant desire to learn and innovate, ensuring that every project I undertake not only meets but exceeds expectations Inviting you to explore the possibilities with my services—where your vision is transformed into digital reality.",
     imageUrl: "/image/devIcon.png", // Example image URL
   },
   {
