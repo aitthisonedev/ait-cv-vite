@@ -15,11 +15,18 @@
     "Name": "Aitthisone",
     "LateName": "Duangsompheang",
     "Description": "I have been a web designer for over five years, and I have the know-how and creativity to create websites.",
-    "More": "Read More"
+    "More": "Read More",
+    "Certificate":"Certificate"
   },
   "Typed":{
     "Freelancer":"I' am a Freelancer",
     "Developer":"I' am a Web Developer",
     "Frontend":"I' am a Frontend Developer"
+  },
+  "Services":{
+    "head":"My Services",
+    "UX":"UX/UI Design",
+    "Frontend":"Frontend Developer",
+    "Application":" Application"
   }
 }

@@ -1,9 +1,11 @@
 // App.js
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './Slider.css';
 import LogoSlider from './LogoSlider';
 const Slider = () => {
+  const {t}= useTranslation();
   const logos = [
     "/image/certificate01.jpg",
     "/image/certificate02.jpg",
@@ -16,7 +18,7 @@ const Slider = () => {
 
   return (
     <div className="Slider" >
-      <h1>Certificate</h1>
+      <h1>{t("home.Certificate")}</h1>
       <LogoSlider logos={logos} />
     </div>
     
