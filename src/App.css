@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    font-family: 'poppins', sans-serif;
 }
 
 body {
@@ -40,3 +39,14 @@ body {
     overflow: hidden;
 }
 
+.navbar.en {
+    font-family: 'Noto Sans', sans-serif;
+  }
+  
+  .navbar.th {
+    font-family: 'Noto Sans Thai', sans-serif;
+  }
+  
+  .navbar.la {
+    font-family: 'Noto Sans Lao', sans-serif;
+  }

@@ -3,13 +3,13 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
-  font-family: 'poppins', sans-serif;
+  font-family: "Noto Sans Lao", sans-serif;
 }
+
 
 body {
   color: #ededed;
   background: #081b29;
-  margin-top: 102px;
 }
 .Last-text p {
   width: 100%;
@@ -47,4 +47,16 @@ body {
   font-size: 13px;
   }
  
+}
+/* Language-specific styles */
+.navbar.en {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.navbar.th {
+  font-family: 'Noto Sans Thai', sans-serif;
+}
+
+.navbar.la {
+  font-family: 'Noto Sans Lao', sans-serif;
 }

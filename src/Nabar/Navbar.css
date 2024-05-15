@@ -1,6 +1,64 @@
 .navbar {
   max-width: 1400px;
 }
+/* Language-specific styles */
+.navbar.en {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.navbar.th {
+  font-family: "Noto Sans Thai", sans-serif;
+}
+
+.navbar.la {
+  font-family: "Noto Sans Lao", sans-serif;
+}
+
+.language-selector {
+  position: relative;
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.fa-earth-americas {
+  margin-right: 10px;
+  font-size: 30px;
+}
+.language-selector button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  color: #0ef;
+  margin-right: 15px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #fff;
+  border-radius: 5px;
+  list-style: none;
+  padding: 3px;
+  margin: 0;
+  width: auto;
+  z-index: 1000;
+}
+
+.dropdown-menu li {
+  cursor: pointer;
+  padding: 5px;
+  color: #081b29;
+  font-size: 16px;
+}
+
+.dropdown-menu li:hover {
+  background-color: #0ef;
+  border-radius: 5px;
+}
 .container-contral {
   position: fixed;
   scroll-behavior: smooth;
@@ -13,17 +71,13 @@
   top: 0%;
   display: flex;
   align-items: center;
-  /* background: black; */
-  /* box-shadow: 0px 2px 0px 0px orange; */
-  /* background:linear-gradient(to bottom, #000000 2%, black 100%); */
   background: #081b29;
   cursor: pointer;
   color: #333333;
-  font-family: Arial;
   font-size: 15px;
-  font-weight: bold;
   text-decoration: none;
-  /* text-shadow:0px 0px 0px #f29d13; */
+  padding: 0%;
+  margin-right: 20px;
 }
 
 .logo a {
@@ -60,14 +114,11 @@
   width: 100%;
   justify-content: center;
   align-items: center;
-  margin-right: 20px;
-  padding: 0 40px;
-  margin-top: 20px;
 }
 
 .menu a {
   color: white;
-  font-size: 25px;
+  font-size: 1.4vw;
   margin-right: 15px;
   font-weight: 500;
   transition: 0.3s;
@@ -75,7 +126,6 @@
   opacity: 0;
   animation: slideTop 0.5s ease forwards;
   animation-delay: calc(0.1s * var(--1));
-  font-family:Arial, Helvetica, sans-serif;
 }
 
 .menu a:hover {
@@ -83,7 +133,10 @@
   text-shadow: 0 0 55px #0ef, 0 0 25px #0ef, 0 0 50px #0ef, 0 0 100px #0ef,
     0 0 200px #0ef;
 }
-
+.Contrall-right {
+  justify-content: space-between;
+  display: flex;
+}
 .menu-icon {
   font-size: 35px;
   color: #0ef;
@@ -126,8 +179,7 @@
 .search-container {
   display: flex;
   justify-content: right;
-  width: 100%;
-  margin-right: 0;
+  width: auto;
   padding: 0;
   transition: 0.3s;
   opacity: 0;
@@ -189,14 +241,16 @@
   .menu {
     display: none;
   }
+  .container-contral {
+    height: 60px;
+  }
 
-  /* .menu.open {
-    height: auto;
-    top: 0px;
-    left: auto;
-    right: 0px;
-   
-  } */
+
+  .language-selector{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+  }
   .search-container {
     display: none;
   }
@@ -229,7 +283,6 @@
     font-size: 25px;
     top: 20px;
     right: 10px;
-   
   }
 }
 
@@ -280,14 +333,30 @@
     opacity: 1;
   }
 }
-@media only screen and (max-width: 390px) {
+@media only screen and (max-width: 480px) {
   .logo a {
-    /* height: 65px; */
-    font-size: 25px;
+    font-size: 20px;
     color: #0ef;
     margin: 0px 5px;
     display: flex;
-    justify-content:left;
+    justify-content: left;
   }
- 
+  .language-selector{
+    position: absolute;
+    top: 25px;
+    right: 0px;
+    font-size: 12px;
+  }
+  .language-selector button {
+    font-size: 14px;
+  }
+  .fa-earth-americas {
+    margin-right: 10px;
+    font-size: 20px;
+  }
+  .menu-icon {
+    font-size: 20px;
+    top: 20px;
+    right: 0px;
+  }
 }

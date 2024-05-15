@@ -1,103 +1,114 @@
 // eslint-disable-next-line no-unused-vars
-import React, { useState } from 'react';
-import './Navbar.css'; // Import your custom styles
+import React, { useState } from "react";
+import "./Navbar.css"; // Import your custom styles
+import { useTranslation } from "react-i18next";
+// import { FaGlobe } from "react-icons/fa";
+import "../i18n";
 
 const Navbar = () => {
+  const { t, i18n } = useTranslation();
   const iconStyles = {
-    '--1': 7,
-    '--2': 8,
-    '--3': 9,
-    '--4': 10,
-    '--5': 11,
-    '--6': 12,
-    '--7': 13,
-    '--8': 14,
+    "--1": 7,
+    "--2": 8,
+    "--3": 9,
+    "--4": 10,
+    "--5": 11,
+    "--6": 12,
+    "--7": 13,
+    "--8": 14,
   };
 
   const [isMenuOpen, setMenuOpen] = useState(false);
   const [isSearchOpen, setSearchOpen] = useState(false);
+  const [dropdownOpen, setDropdownOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!isMenuOpen);
     setSearchOpen(false); // Close search when opening menu
   };
 
-  // const toggleSearch = () => {
-  //   setSearchOpen(!isSearchOpen);
-  //   setMenuOpen(false); // Close menu when opening search
-  // };
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    setDropdownOpen(false);
+  };
+  const toggleDropdown = () => {
+    setDropdownOpen(!dropdownOpen);
+  };
+ 
 
   return (
-    <div className='navbar'>
-      <nav className={`navbar ${isMenuOpen ? 'active' : 'container'}`}>
+    <div className="navbar">
+      <nav className={`navbar ${isMenuOpen ? "active" : "container"}`}>
         <div className="container-contral ">
           <div className="logo">
-            <a href="/"><i className="fa-solid fa-layer-group"></i>Aitthisone DSP</a>
+            <a href="/">
+              <i className="fa-solid fa-layer-group"></i>Aitthisone DSP
+            </a>
           </div>
-
-          <div className={`menu ${isMenuOpen ? 'open' : ''}`}>
+          
+          <div className={`menu ${isMenuOpen ? "open" : ""}`}>
             <ul>
-              <a href="/#home" style={{ '--1': iconStyles['--1'] }}>
-                Home
+              <a href="/#home" style={{ "--1": iconStyles["--1"] }}>
+                {t("navbar.home")}
               </a>
-              <a href="/#services" style={{ '--1': iconStyles['--2'] }} >
-              Services
+              <a href="/#services" style={{ "--1": iconStyles["--2"] }}>
+                {t("navbar.services")}
               </a>
-              <a href="/#protfolio" style={{ '--1': iconStyles['--3'] }}>
-              Projects
+              <a href="/#protfolio" style={{ "--1": iconStyles["--3"] }}>
+                {t("navbar.projects")}
               </a>
-              <a href="/#about" style={{ '--1': iconStyles['--4'] }}>
-              About
+              <a href="/#about" style={{ "--1": iconStyles["--4"] }}>
+                {t("navbar.about")}
               </a>
-              <a href="/#experiences" style={{ '--1': iconStyles['--5'] }}>
-              Experience
+              <a href="/#experiences" style={{ "--1": iconStyles["--5"] }}>
+                {t("navbar.experience")}
               </a>
-              <a href="/#skills" style={{ '--1': iconStyles['--6'] }}>
-              Skills
+              <a href="/#skills" style={{ "--1": iconStyles["--6"] }}>
+                {t("navbar.skills")}
               </a>
-              <a href="/#education" style={{ '--1': iconStyles['--7'] }}>
-              Educations
+              <a href="/#education" style={{ "--1": iconStyles["--7"] }}>
+                {t("navbar.education")}
               </a>
-              <a href="/#contact" style={{ '--1': iconStyles['--8'] }}>
-                Contact
+              <a href="/#contact" style={{ "--1": iconStyles["--8"] }}>
+                {t("navbar.contact")}
               </a>
             </ul>
           </div>
-          <div className={`search-container ${isSearchOpen ? 'open active' : ''}`}>
+          <div className="menu-icon" onClick={toggleMenu}>
+            <i className={`fas ${isMenuOpen ? "fa-times" : "fa-bars"}`}></i>
+          </div>
+          <div className="language-selector">
+            <button onClick={toggleDropdown} className="icon-fa">
+            <i className="fa-solid fa-earth-americas fa-beat-fade" ></i>{t('navbar.language')}
+            </button>
+            {dropdownOpen && (
+              <ul className="dropdown-menu">
+                <li onClick={() => changeLanguage("en")}>English</li>
+                <li onClick={() => changeLanguage("th")}>ไทย</li>
+                <li onClick={() => changeLanguage("la")}>ລາວ</li>
+              </ul>
+            )}
+          </div>
+          
+          <div
+            className={`search-container ${isSearchOpen ? "open active" : ""}`}
+          >
             <div className="search">
               <input
                 type="search"
-                placeholder="Search Your Design"
+                placeholder={t('navbar.search')}
                 aria-label="Search"
-                onChange={() => { }}
+                onChange={() => {}}
               />
             </div>
-            <div className="search-success">
-              <input
-              
-                type="search"
-                placeholder="Search"
-                aria-label="Search Success"
-                onChange={() => { }}
-              />
             </div>
           </div>
-          <div className="menu-icon" onClick={toggleMenu}>
-            <i className={`fas ${isMenuOpen ? 'fa-times' : 'fa-bars'}`}></i>
-          </div>
-        </div>
-      </nav >
+      </nav>
     </div>
   );
 };
 
 export default Navbar;
-
-
-
-
-
-
 
 // import React from 'react';
 // import 'bootstrap/dist/css/bootstrap.min.css';
@@ -107,7 +118,7 @@ export default Navbar;
 //     return (
 //         <nav className="navbar navbar-expand-lg navbar-light ">
 //             <div className="container-fluid">
-//                 <a className="navbar-brand" href="/"> 
+//                 <a className="navbar-brand" href="/">
 //                 <i className="fa-solid fa-layer-group"></i> Aittisone</a>
 //                 <button
 //                     className="navbar-toggler"

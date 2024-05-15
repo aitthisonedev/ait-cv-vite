@@ -25,7 +25,7 @@ function App() {
         <Education/>
         <MapEmbed />
         <Contact />
-
+        <br />
         <a href="#home" className="top"><i className="fa-solid fa-arrow-up"></i></a>
       </div>
     </>
