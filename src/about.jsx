@@ -1,8 +1,6 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import "./about.css";
-// import Education from "./Education";
-
 const about = () => {
   return (
     <section className="about" id="about">

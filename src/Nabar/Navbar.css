@@ -82,6 +82,7 @@
   text-decoration: none;
   opacity: 0;
   animation: slideRight 1s ease forwards;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .logo a:hover {

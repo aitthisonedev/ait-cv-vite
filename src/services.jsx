@@ -10,8 +10,6 @@ const Services = () => {
                 <div className="container">
                     <h1 className="sup-title">{t("Services.head")}</h1>
                     <div className="services-list">
-
-                         {/* Server2 */}
                         <div>
                             <i className="fa-solid fa-code" style={{ color: '#00eeff' }}></i>
                             <h2>{t("Services.UX")}</h2>
