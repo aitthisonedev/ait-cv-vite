@@ -40,7 +40,7 @@ const MapEmbed = () => {
   return (
     <div style={style}>
       <iframe
-        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d613.1036495707785!2d102.6729516422094!3d17.908359991671613!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x312465d4914ee76b%3A0xff00815ec6de840b!2z4Lqq4Lqw4LqW4Lqy4Lqa4Lqx4LqZ4LqB4Lqy4LqZ4LuA4LqH4Lq04LqZLeC6geC6suC6meC6muC6seC6meC6iuC6tSBBY2FkZW15IE9mIEZpbmFuY2UgYW5kIEFjY291bnRpbmc!5e1!3m2!1sth!2sla!4v1715359694169!5m2!1sth!2sla"
+        src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d1148.0970422319258!2d102.6723962696184!3d17.908536275068457!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTfCsDU0JzMwLjciTiAxMDLCsDQwJzIyLjkiRQ!5e1!3m2!1sen!2sla!4v1715830517605!5m2!1sen!2sla"
         width="100%"
         height="100%"
         style={{ border: 0, borderRadius: "10px" }}

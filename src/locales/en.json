@@ -9,7 +9,7 @@
     "education": "Education",
     "contact": "Contact",
     "language": "EN",
-    "search": "search...."
+    "search": "search ........."
   },
   "home": {
     "Name": "Aitthisone",
@@ -27,6 +27,11 @@
     "head":"My Services",
     "UX":"UX/UI Design",
     "Frontend":"Frontend Developer",
-    "Application":" Application"
+    "Application":" Application",
+    "Customize":"Customize",
+    "Description-u":"UX/UI Design focuses on creating intuitive, engaging digital experiences. UX (User Experience) enhances usability, while UI (User Interface) designs the visual elements, ensuring seamless interaction between users and products.",
+    "Description-f":"Frontend Developers craft the look and feel of websites and apps you interact with. They use code to bring designs to life, making your digital experience seamless and enjoyable.",
+    "Description-a":"At Appellation, we specialize in crafting captivating digital experiences. Our Frontend Developers breathe life into designs, ensuring seamless interaction for users. Elevate your brand with our expertise.",
+    "Description-c":"At Srervice, we not only excel in crafting captivating digital experiences, but also customize our services to suit your unique needs. Elevate your brand with tailored frontend development solutions"
   }
 }

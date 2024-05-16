@@ -1,18 +1,7 @@
 .navbar {
   max-width: 1400px;
 }
-/* Language-specific styles */
-.navbar.en {
-  font-family: "Noto Sans", sans-serif;
-}
 
-.navbar.th {
-  font-family: "Noto Sans Thai", sans-serif;
-}
-
-.navbar.la {
-  font-family: "Noto Sans Lao", sans-serif;
-}
 
 .language-selector {
   position: relative;
@@ -102,13 +91,11 @@
   text-shadow: 0 0 55px #0ef, 0 0 25px white, 0 0 50px #0efe, 0 0 100px #0ef,
     0 0 200px #0ef;
 }
-
-/* .contral {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-} */
-
+.icon-fa{
+  font-family: 'Phetsarath', sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
 .menu {
   display: flex;
   width: 100%;

@@ -1,5 +1,5 @@
 // eslint-disable-next-line no-unused-vars
-import  React  from 'react'
+import React, { useEffect } from 'react';
 import './App.css'
 import Home from './home';
 import About from './about';
@@ -11,7 +11,15 @@ import WorkExperience from './experiences';
 import Slideshow from './slider';
 import Education from './Education';
 import MapEmbed from './MapEmbed'
+import { useTranslation } from 'react-i18next';
 function App() {
+  const { i18n } = useTranslation();
+  useEffect(() => {
+    const langClass = `lang-${i18n.language}`;
+    document.body.classList.remove('lang-en', 'lang-th', 'lang-la');
+    document.body.classList.add(langClass);
+  }, [i18n.language]);
+
   return (
     <>
       <div className='App'>
