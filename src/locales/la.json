@@ -31,7 +31,23 @@
     "Customize":"ການປັບແຕ່ງ",
     "Description-u":"ການອອກແບບ UX/UI ເນັ້ນໃສ່ການສ້າງປະສົບການດິຈິຕອລທີ່ເຂົ້າໃຈງ່າຍ ແລະ ເປັນຕາດຶງດູດໃຈ UX (ຈາກປະສົບການຂອງຜູ້ໃຊ້ງານ) ຖືກອອກແບບມາເພື່ອປັບປຸງການໃຊ້ງານ, ໃນຂະນະທີ່ UI (ສ່ວນຕິດຕໍ່ຜູ້ໃຊ້) ຖືກອອກແບບມາເພື່ອອົງປະກອບຮູບພາບ ເພື່ອຮັບປະກັນການໂຕ້ຕອບທີ່ລຽບງ່າຍລະຫວ່າງຜູ້ໃຊ້ ແລະ ຜະລິດຕະພັນ",
     "Description-f":"ນັກພັດທະນາ Frontend ສ້າງລັກສະນະ ແລະ ຄວາມຮູ້ສຶກຂອງເວັບໄຊທ໌ແລະ ແອັບ ທີ່ທ່ານໃຊ້ງານ, ແລະ ພວກເຂົາໃຊ້ໂຄດ ເພື່ອນໍາເອົາການອອກແບບໄປການໃຊ້ງານຈີງ ເຮັດໃຫ້ປະສົບການດິຈິຕອນຂອງທ່ານລາບລື່ນ ແລະ ມີຄວາມສຸກ.",
-    "Description-a":"การปรับแต่ง",
-    "Description-c":"การปรับแต่ง"
+    "Description-a":"ແອັບພລິເຄຊັນທີ່ພວກເຮົາຊ່ຽວຊານໃນການສ້າງປະສົບການດິຈິຕອນທີ່ໜ້າຈັບໃຈ ນັກພັດທະນາຂອງພວກເຮົາເຕີມຊີວິດຊີວາເຂົ້າໄປໃນການອອກແບບຢ່າງປານີດ ຮັບປະກັນການໂຕ້ຕອບທີ່ລຽບງ່າຍສໍາລັບຜູ້ໃຊ້ ຍົກລະດັບຍີ່ຫໍ້ຂອງທ່ານດ້ວຍຄວາມຊ່ຽວຊານຂອງພວກເຮົາ.",
+    "Description-c":"ການບໍລິການພວກເຮົາບໍ່ພຽງແຕ່ດີເລີດໃນການສ້າງປະສົບການດິຈິຕອນທີ່ມີສ່ວນຮ່ວມ ແຕ່ພວກເຮົາຍັງປັບແຕ່ງການບໍລິການຂອງພວກເຮົາຕາມຄວາມຕ້ອງການສະເພາະຂອງທ່ານ ແລະ ຍົກລະດັບຍີ່ຫໍ້ຂອງທ່ານດ້ວຍການແກ້ໄຂການພັດທະນາທີ່ກໍາຫນົດເອງ."
+  },
+  "Project":{
+    "Late":"ໂຄງການຫຼ້າສຸດ",
+    "t-company":"ບໍລິສັດ ເທສໂລນິກ ຈຳກັດຜູ້ດຽວ",
+    "i-company":"ບໍລິສັດ ອິນດັສ໌ເທັກ ຈຳກັດ",
+    "s-company":"ບໍລິສັດ ສະມາດຄຣີນ ຈຳກັດ",
+    "v-company":"ບໍລິສັດ ວຽງຈັນທຣາບຟິກ ຈຳກັດ",
+    "t-Description":"ເວັບໄຊທ໌ກ່ຽວກັບການກໍ່ສ້າງ, ການອອກແບບ 3D, ແລະ ການບໍລິການ",
+    "i-Description":"ເວັບໄຊທ໌ກ່ຽວກັບຜະລິດຕະພັນ ແລະການບໍລິການອຸປະກອນຄວາມປອດໄພ",
+    "s-Description":"ບໍລິການອອກແບບເວັບໄຊທ໌ກ່ຽວກັບຜະລິດຕະພັນທໍາຄວາມສະອາດຍີ່ຫໍ້ Karcher",
+    "v-Description":"ເວັບໄຊກ່ຽວກັບການໃຫ້ບໍລິການທາສີ,ແປງຖະໜົນ ແລະ ງານປ້າຍອາລູມີນຽມຕ່າງໆ"
+  },
+  "About":{
+    "me":"ກ່ຽວກັບຂ້ອຍ",
+    "titel":"ນັກພັດທະນາຊຸດເຕັມ",
+    "Description":"Pioneering Web Elegance: Elevate your online presence with the finesse of web development craftsmanship. It is not just coding; it is a symphony of digital artistry! Advancements in Real-Time Web Solutions: Your website should evolve as swiftly as the digital landscape. Stay proactive with real-time innovations, ensuring your online platform remains at the forefront of user experience! Mastering the Web with Creative Precision: Harness the power of creativity and precision in every line of code. Crafting exceptional web experiences is not just a task; it is a testament to your dedication to excellence!"
   }
 }

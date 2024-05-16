@@ -33,5 +33,21 @@
     "Description-f":"Frontend Developers craft the look and feel of websites and apps you interact with. They use code to bring designs to life, making your digital experience seamless and enjoyable.",
     "Description-a":"At Appellation, we specialize in crafting captivating digital experiences. Our Frontend Developers breathe life into designs, ensuring seamless interaction for users. Elevate your brand with our expertise.",
     "Description-c":"At Srervice, we not only excel in crafting captivating digital experiences, but also customize our services to suit your unique needs. Elevate your brand with tailored frontend development solutions"
+  },
+  "Project":{
+    "Late":"Late Project",
+    "t-company":"Thesslonic Sole company Limeted",
+    "i-company":"Industek company Limeted",
+    "s-company":"Smartklin company Limeted",
+    "v-company":"Vientianetraffic company Limeted",
+    "t-Description":"Website about Construction 3D Design and service.",
+    "i-Description":"Website about Safety Equipment product and services",
+    "s-Description":"Website Designer Service about Cleaning Product Karcher Brand",
+    "v-Description":"A website about painting services, road construction and aluminum signs"
+  },
+  "About":{
+    "me":"About me",
+    "titel":"Full-Stack Developer",
+    "Description":"Pioneering Web Elegance: Elevate your online presence with the finesse of web development craftsmanship. It is not just coding; it is a symphony of digital artistry! Advancements in Real-Time Web Solutions: Your website should evolve as swiftly as the digital landscape. Stay proactive with real-time innovations, ensuring your online platform remains at the forefront of user experience! Mastering the Web with Creative Precision: Harness the power of creativity and precision in every line of code. Crafting exceptional web experiences is not just a task; it is a testament to your dedication to excellence!"
   }
 }
