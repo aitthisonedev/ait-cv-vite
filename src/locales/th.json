@@ -50,5 +50,78 @@
     "titel":"นักพัฒนาฟูลสแตก",
     "Description":"บุกเบิกความสง่างามของเว็บ: ยกระดับสถานะออนไลน์ของคุณด้วยความชำนาญในการพัฒนาเว็บไซต์ มันไม่ใช่แค่การเขียนโค้ดเท่านั้น มันคือซิมโฟนีแห่งศิลปะดิจิทัล! ความก้าวหน้าในโซลูชั่นเว็บแบบเรียลไทม์: เว็บไซต์ของคุณควรมีการพัฒนาอย่างรวดเร็วพอๆ กับภูมิทัศน์ดิจิทัล กระตือรือร้นอยู่เสมอด้วยนวัตกรรมแบบเรียลไทม์ เพื่อให้มั่นใจว่าแพลตฟอร์มออนไลน์ของคุณยังคงอยู่ในแนวหน้าของประสบการณ์ผู้ใช้! เชี่ยวชาญเว็บด้วย Creative Precision ควบคุมพลังของความคิดสร้างสรรค์และความแม่นยำในโค้ดทุกบรรทัด การสร้างประสบการณ์การใช้งานเว็บที่ยอดเยี่ยมไม่ใช่แค่งานเท่านั้น มันเป็นข้อพิสูจน์ถึงความทุ่มเทของคุณสู่ความเป็นเลิศ!",
     "Contact":"ติดต่อ"
-  }
+  },
+  "Experience":{
+    "Work":"Work Experience",
+
+    "Freelance":"Freelance - Programmer",
+    "titel-f":"Laos | 2016 - Present",
+    "Description-f":"Work Experience",
+
+    "Account":"Freelance - Programmer",
+    "titel-a":"Laos | 2016 - Present",
+    "Description-a":"Work Experience",
+
+    "Sales":"Freelance - Programmer",
+    "titel-s":"Laos | 2016 - Present",
+    "Description-s":"Work Experience",
+
+    "General":"Freelance - Programmer",
+    "titel-g":"Laos | 2016 - Present",
+    "Description-g":"Work Experience",
+
+    "Loan":"Freelance - Programmer",
+    "titel-l":"Laos | 2016 - Present",
+    "Description-l":"Work Experience",
+
+    "Construction":"Freelance - Programmer",
+    "titel-c":"Laos | 2016 - Present",
+    "Description-c":"Work Experience"
+  },
+  "Skills":{
+    "my":"My Skills",
+    "Technical":"Technical skills",
+    "Professional":"Professional skills",
+    "Creativity":"Creativity",
+    "Communication":"Creativity",
+    "Problem-Solving":"Problem Solving",
+    "Team-work":"Team work",
+    "Computer-skill":"Computer skill",
+    "Office & Midia":"Office & Midia"
+  },
+  "Education History":{
+    "titel-name-p":"Programers - Training Course",
+    "titel-time-p":"Vientiane-Laos | 2016 - Presen",
+    "Description-p":"Since 2016, my journey as a programmer has been marked by relentless dedication to honing my craft. Continuously advancing my development skills, I embrace challenges as opportunities for growth. With an unwavering commitment to excellence, I strive to surpass current capabilities and pave the way for future success in the ever-evolving tech landscape",
+
+    "titel-name-r":" Bachelor's program in General Management - Rattana institute of business administration",
+    "titel-time-r":"Vientiane-Laos | 2016 - 2021",
+    "Description-r":"Armed with a Bachelor's degree in General Management, I possess a comprehensive understanding of organizational dynamics and strategic planning. This academic foundation, coupled with real-world experience, equips me to navigate multifaceted challenges and drive sustainable growth in diverse business environments",
+
+    "titel-name-s":" Safety-Course - Shawpat",
+    "titel-time-s":"Thailand | In 2020",
+    "Description-s":"While working, I undertook a safety training course for labor in Thailand, augmenting my skills and knowledge to prioritize workplace safety and compliance.in 4 courses",
+
+    "titel-name-e":"English - Training Course",
+    "titel-time-e":"Vientiane | 2016 - 2019",
+    "Description-e":"Developed multiple high-traffic APIs using Node.js and Express. Improved system stability through rigorous testing and code reviews."
+},
+"Contact":{
+  "contact":"Contact",
+  "Me":"Me",
+  "titel-c1":"Let us work together",
+  "Description-c1":"🎨 Creative Design: I breathe life into designs, ensuring each pixel is in its perfect place. From sleek, modern interfaces to interactive user experiences, your vision is my blueprint.",
+  "titel-c2":"Why Collaborate With Me?",
+  "Description-c2":"✨ Attention to Detail: It is not just about the big picture; it is the small details that make a difference. I obsess over the details to deliver a polished and refined final product.",
+  "email":"Email:",
+  "enter-email":"Enter Your Email:",
+  "phone":"Tel:",
+  "enter-phone":"Enter Your Phone:",
+  "enter-name":"Enter Your Name",
+  "Supject":"Enter Your Supject",
+  "Message":"Enter Your Message",
+  "address":"Address",
+  "address-detail":"Dongkhamxang Village, Hardxayfong District, Vientiane Lao PDR",
+  "Send":"Send"
+}
 }

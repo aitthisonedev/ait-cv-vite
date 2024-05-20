@@ -100,6 +100,28 @@
 
     "titel-name-s":" Safety-Course - Shawpat",
     "titel-time-s":"Thailand | In 2020",
-    "Description-s":"While working, I undertook a safety training course for labor in Thailand, augmenting my skills and knowledge to prioritize workplace safety and compliance.in 4 courses"
+    "Description-s":"While working, I undertook a safety training course for labor in Thailand, augmenting my skills and knowledge to prioritize workplace safety and compliance.in 4 courses",
+
+    "titel-name-e":"English - Training Course",
+    "titel-time-e":"Vientiane | 2016 - 2019",
+    "Description-e":"Developed multiple high-traffic APIs using Node.js and Express. Improved system stability through rigorous testing and code reviews."
+},
+"Contact":{
+  "contact":"Contact",
+  "Me":"Me",
+  "titel-c1":"Let us work together",
+  "Description-c1":"🎨 Creative Design: I breathe life into designs, ensuring each pixel is in its perfect place. From sleek, modern interfaces to interactive user experiences, your vision is my blueprint.",
+  "titel-c2":"Why Collaborate With Me?",
+  "Description-c2":"✨ Attention to Detail: It is not just about the big picture; it is the small details that make a difference. I obsess over the details to deliver a polished and refined final product.",
+  "email":"Email:",
+  "enter-email":"Enter Your Email:",
+  "phone":"Tel:",
+  "enter-phone":"Enter Your Phone:",
+  "enter-name":"Enter Your Name",
+  "Supject":"Enter Your Supject",
+  "Message":"Enter Your Message",
+  "address":"Address",
+  "address-detail":"Dongkhamxang Village, Hardxayfong District, Vientiane Lao PDR",
+  "Send":"Send"
 }
 }
