@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
-import './Portfolio.css';
+import './Project.css';
 import { useTranslation } from 'react-i18next';
 
-const Portfolio = () => {
+const Project = () => {
   const {t} = useTranslation();
   return (
       <div className="protfolio" id="protfolio">
@@ -67,4 +67,4 @@ const Portfolio = () => {
   );
 };
 
-export default Portfolio;
+export default Project;

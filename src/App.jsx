@@ -1,16 +1,16 @@
 // eslint-disable-next-line no-unused-vars
 import React, { useEffect } from 'react';
 import './App.css'
-import Home from './home';
-import About from './about';
-import Services from './services';
-import Skills from './Skill';
-import Project from './Protfolio';
-import Contact from './contect';
-import WorkExperience from './experiences';
-import Slideshow from './slider';
-import Education from './Education';
-import MapEmbed from './MapEmbed'
+import Home from './page/home';
+import About from './page/about';
+import Services from './page/services';
+import Skills from './page/Skill';
+import Project from './page/Project';
+import Contact from './page/contect';
+import WorkExperience from './page/experiences';
+import Slideshow from './page/slider';
+import Education from './page/Education';
+import MapEmbed from './page/MapEmbed'
 import { useTranslation } from 'react-i18next';
 function App() {
   const { i18n } = useTranslation();

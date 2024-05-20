@@ -15,7 +15,7 @@ const About = () => {
         <h2>
           <span>{t("About.me")}</span>
         </h2>
-        <h4>{t("About.title")}</h4>
+        <h4>{t("About.titel")}</h4>
         <p>
           {t("About.Description")}
         </p>

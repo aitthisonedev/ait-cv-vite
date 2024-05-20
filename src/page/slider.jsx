@@ -8,8 +8,11 @@ const Slider = () => {
   const {t}= useTranslation();
   const logos = [
     "/image/certificate01.jpg",
+    "/image/certificate08.jpg",
     "/image/certificate02.jpg",
+    "/image/certificate09.jpg",
     "/image/certificate03.jpg",
+    "/image/certificate10.jpg",
     "/image/certificate04.jpg",
     "/image/certificate05.jpg",
     "/image/certificate06.jpg",

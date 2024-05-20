@@ -17,9 +17,9 @@ const LogoSlider = ({ logos, linkTo }) => {
         // cssEase: 'linear',
         responsive: [
             {
-                breakpoint: 1250,
+                breakpoint: 1450,
                 settings: {
-                    slidesToShow: 2,
+                    slidesToShow: 3,
                 },
             },
             {
